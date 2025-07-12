@@ -1,0 +1,7 @@
+2024-12-04 15:33:49,878 - base_runner.py[pid:34100;line:176:save_log] - INFO: Save the log to ./checkpoints/34100_26764_241204-153349\log
+2024-12-04 15:33:53,729 - tpp_runner.py[pid:34100;line:60:_init_model] - INFO: Num of model parameters 3228
+2024-12-04 15:33:53,732 - tpp_runner.py[pid:34100;line:81:_load_model] - CRITICAL: Load model from ./checkpoints/5484_21812_241204-152159/models/saved_model
+2024-12-04 15:33:56,691 - base_runner.py[pid:34100;line:135:gen] - INFO: Data 'taxi' loaded...
+2024-12-04 15:33:56,692 - base_runner.py[pid:34100;line:140:gen] - INFO: Start RMTPP3 evaluation...
+2024-12-04 15:33:57,088 - tpp_runner.py[pid:34100;line:162:_gen_model] - CRITICAL: Save the prediction to pickle file pred.pkl
+2024-12-04 15:33:57,089 - base_runner.py[pid:34100;line:146:gen] - INFO: End RMTPP3 generation! Cost time: 0.007m

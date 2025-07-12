@@ -1,0 +1,7 @@
+2024-12-04 19:48:59,660 - base_runner.py[pid:26636;line:176:save_log] - INFO: Save the log to ./checkpoints/26636_15248_241204-194859\log
+2024-12-04 19:48:59,756 - tpp_runner.py[pid:26636;line:60:_init_model] - INFO: Num of model parameters 3942
+2024-12-04 19:48:59,760 - tpp_runner.py[pid:26636;line:81:_load_model] - CRITICAL: Load model from ./checkpoints/30976_17324_241204-175347/models/saved_model
+2024-12-04 19:48:59,774 - base_runner.py[pid:26636;line:135:gen] - INFO: Data 'taobao' loaded...
+2024-12-04 19:48:59,774 - base_runner.py[pid:26636;line:140:gen] - INFO: Start RMTPP3 evaluation...
+2024-12-04 19:49:00,502 - tpp_runner.py[pid:26636;line:162:_gen_model] - CRITICAL: Save the prediction to pickle file pred.pkl
+2024-12-04 19:49:00,504 - base_runner.py[pid:26636;line:146:gen] - INFO: End RMTPP3 generation! Cost time: 0.012m

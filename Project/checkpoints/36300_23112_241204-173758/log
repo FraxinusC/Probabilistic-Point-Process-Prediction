@@ -1,0 +1,805 @@
+2024-12-04 17:37:58,365 - base_runner.py[pid:36300;line:176:save_log] - INFO: Save the log to ./checkpoints/36300_23112_241204-173758\log
+2024-12-04 17:37:59,248 - tpp_runner.py[pid:36300;line:60:_init_model] - INFO: Num of model parameters 2922
+2024-12-04 17:37:59,292 - base_runner.py[pid:36300;line:98:train] - INFO: Data 'earthquake' loaded...
+2024-12-04 17:37:59,293 - base_runner.py[pid:36300;line:103:train] - INFO: Start RMTPP3 training...
+2024-12-04 17:37:59,564 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 0 (train) ]: train loglike is -1175.0585994792452, num_events is 46363
+2024-12-04 17:37:59,735 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 0 (valid) ]:  valid loglike is -95.67096949452672, num_events is 6212, acc is 0.16049581455247908, rmse is 1.9064652211225914
+2024-12-04 17:38:00,104 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 0 (test) ]: test loglike is -193.9189162666041, num_events is 13852, acc is 0.14871498700548658, rmse is 1.5020477441546485
+2024-12-04 17:38:00,105 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -95.6710 (updated at epoch-0), best updated at this epoch
+2024-12-04 17:38:00,311 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 1 (train) ]: train loglike is -773.1573241913676, num_events is 46363
+2024-12-04 17:38:00,469 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 1 (valid) ]:  valid loglike is -78.5969167538635, num_events is 6212, acc is 0.17079845460399226, rmse is 1.8657669728476656
+2024-12-04 17:38:00,886 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 1 (test) ]: test loglike is -153.35478377445494, num_events is 13852, acc is 0.15015882183078255, rmse is 1.4784315083558817
+2024-12-04 17:38:00,886 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -78.5969 (updated at epoch-1), best updated at this epoch
+2024-12-04 17:38:01,117 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 2 (train) ]: train loglike is -622.4873836120668, num_events is 46363
+2024-12-04 17:38:01,278 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 2 (valid) ]:  valid loglike is -54.92132540848358, num_events is 6212, acc is 0.17611075338055376, rmse is 1.8372534079741745
+2024-12-04 17:38:01,659 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 2 (test) ]: test loglike is -140.85890377968886, num_events is 13852, acc is 0.15918278948888248, rmse is 1.4584027092901646
+2024-12-04 17:38:01,659 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -54.9213 (updated at epoch-2), best updated at this epoch
+2024-12-04 17:38:01,877 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 3 (train) ]: train loglike is -533.7212416319317, num_events is 46363
+2024-12-04 17:38:02,042 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 3 (valid) ]:  valid loglike is -58.341959111397294, num_events is 6212, acc is 0.18850611719253058, rmse is 1.816301836965371
+2024-12-04 17:38:02,406 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 3 (test) ]: test loglike is -118.09467143169759, num_events is 13852, acc is 0.16199826739820963, rmse is 1.4366254408369619
+2024-12-04 17:38:02,407 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -54.9213 (updated at epoch-2)
+2024-12-04 17:38:02,625 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 4 (train) ]: train loglike is -407.14721342146487, num_events is 46363
+2024-12-04 17:38:02,787 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 4 (valid) ]:  valid loglike is -29.90020072037991, num_events is 6212, acc is 0.172730199613651, rmse is 1.8055515077371789
+2024-12-04 17:38:03,159 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 4 (test) ]: test loglike is -92.39013065577173, num_events is 13852, acc is 0.15831648859370487, rmse is 1.4281315649402506
+2024-12-04 17:38:03,160 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -29.9002 (updated at epoch-4), best updated at this epoch
+2024-12-04 17:38:03,367 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 5 (train) ]: train loglike is -333.2936991445226, num_events is 46363
+2024-12-04 17:38:03,521 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 5 (valid) ]:  valid loglike is -21.97352905666452, num_events is 6212, acc is 0.18174500965872506, rmse is 1.7799927413094372
+2024-12-04 17:38:03,869 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 5 (test) ]: test loglike is -97.86795087126407, num_events is 13852, acc is 0.1588940225238233, rmse is 1.423539129358434
+2024-12-04 17:38:03,870 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -21.9735 (updated at epoch-5), best updated at this epoch
+2024-12-04 17:38:04,078 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 6 (train) ]: train loglike is -298.5421610317292, num_events is 46363
+2024-12-04 17:38:04,240 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 6 (valid) ]:  valid loglike is -19.97844016621056, num_events is 6212, acc is 0.1857694784288474, rmse is 1.7727609014112096
+2024-12-04 17:38:04,587 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 6 (test) ]: test loglike is -104.46049349259133, num_events is 13852, acc is 0.1657522379439792, rmse is 1.4270112260270145
+2024-12-04 17:38:04,587 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -19.9784 (updated at epoch-6), best updated at this epoch
+2024-12-04 17:38:04,790 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 7 (train) ]: train loglike is -249.85457945317387, num_events is 46363
+2024-12-04 17:38:04,943 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 7 (valid) ]:  valid loglike is -15.59710791613007, num_events is 6212, acc is 0.18947198969735995, rmse is 1.785607279415815
+2024-12-04 17:38:05,293 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 7 (test) ]: test loglike is -72.33468753947986, num_events is 13852, acc is 0.1652468957551256, rmse is 1.4414916565575588
+2024-12-04 17:38:05,293 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -15.5971 (updated at epoch-7), best updated at this epoch
+2024-12-04 17:38:05,498 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 8 (train) ]: train loglike is -197.9040941186938, num_events is 46363
+2024-12-04 17:38:05,659 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 8 (valid) ]:  valid loglike is -12.59268728871539, num_events is 6212, acc is 0.18238892466194462, rmse is 1.776634285427443
+2024-12-04 17:38:06,002 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 8 (test) ]: test loglike is -83.01724205270449, num_events is 13852, acc is 0.1545625180479353, rmse is 1.46664308176788
+2024-12-04 17:38:06,002 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -12.5927 (updated at epoch-8), best updated at this epoch
+2024-12-04 17:38:06,205 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 9 (train) ]: train loglike is -175.21236184935995, num_events is 46363
+2024-12-04 17:38:06,360 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 9 (valid) ]:  valid loglike is -10.273850951283805, num_events is 6212, acc is 0.1643593045717965, rmse is 1.7716806716811178
+2024-12-04 17:38:06,707 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 9 (test) ]: test loglike is -77.0631306907396, num_events is 13852, acc is 0.15218019058619695, rmse is 1.4791707848017335
+2024-12-04 17:38:06,707 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -10.2739 (updated at epoch-9), best updated at this epoch
+2024-12-04 17:38:06,915 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 10 (train) ]: train loglike is -164.16277811694536, num_events is 46363
+2024-12-04 17:38:07,073 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 10 (valid) ]:  valid loglike is -9.254038617293142, num_events is 6212, acc is 0.1643593045717965, rmse is 1.8067545024606224
+2024-12-04 17:38:07,426 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 10 (test) ]: test loglike is -66.36139009427791, num_events is 13852, acc is 0.1540571758590817, rmse is 1.51899180817309
+2024-12-04 17:38:07,427 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -9.2540 (updated at epoch-10), best updated at this epoch
+2024-12-04 17:38:07,632 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 11 (train) ]: train loglike is -139.43192287458479, num_events is 46363
+2024-12-04 17:38:07,784 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 11 (valid) ]:  valid loglike is -9.413236226255634, num_events is 6212, acc is 0.1828718609143593, rmse is 1.8350420149540034
+2024-12-04 17:38:08,141 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 11 (test) ]: test loglike is -62.23659708153606, num_events is 13852, acc is 0.1650303205313312, rmse is 1.543842497605857
+2024-12-04 17:38:08,141 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -9.2540 (updated at epoch-10)
+2024-12-04 17:38:08,355 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 12 (train) ]: train loglike is -116.32142182512186, num_events is 46363
+2024-12-04 17:38:08,512 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 12 (valid) ]:  valid loglike is -7.995262445669671, num_events is 6212, acc is 0.1782034771410174, rmse is 1.8568406456066677
+2024-12-04 17:38:08,867 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 12 (test) ]: test loglike is -49.5628049114072, num_events is 13852, acc is 0.17066127634998557, rmse is 1.6110486350074738
+2024-12-04 17:38:08,868 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -7.9953 (updated at epoch-12), best updated at this epoch
+2024-12-04 17:38:09,069 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 13 (train) ]: train loglike is -101.59583110622964, num_events is 46363
+2024-12-04 17:38:09,236 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 13 (valid) ]:  valid loglike is -8.116599235853993, num_events is 6212, acc is 0.19220862846104314, rmse is 1.864545539068646
+2024-12-04 17:38:09,564 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 13 (test) ]: test loglike is -48.59769784485093, num_events is 13852, acc is 0.16986716719607278, rmse is 1.6487480033205895
+2024-12-04 17:38:09,564 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -7.9953 (updated at epoch-12)
+2024-12-04 17:38:09,766 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 14 (train) ]: train loglike is -95.67999919622059, num_events is 46363
+2024-12-04 17:38:09,920 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 14 (valid) ]:  valid loglike is -7.7183054219655505, num_events is 6212, acc is 0.18657437218287187, rmse is 1.8936785995093868
+2024-12-04 17:38:10,273 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 14 (test) ]: test loglike is -42.24751347391171, num_events is 13852, acc is 0.1778082587352007, rmse is 1.695771444389014
+2024-12-04 17:38:10,274 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -7.7183 (updated at epoch-14), best updated at this epoch
+2024-12-04 17:38:10,480 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 15 (train) ]: train loglike is -81.99238164137486, num_events is 46363
+2024-12-04 17:38:10,646 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 15 (valid) ]:  valid loglike is -6.241349278613973, num_events is 6212, acc is 0.20074050225370252, rmse is 1.9443238609665339
+2024-12-04 17:38:11,015 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 15 (test) ]: test loglike is -43.0419960649861, num_events is 13852, acc is 0.17939647704302628, rmse is 1.739515750048879
+2024-12-04 17:38:11,016 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -6.2413 (updated at epoch-15), best updated at this epoch
+2024-12-04 17:38:11,226 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 16 (train) ]: train loglike is -75.81778272224753, num_events is 46363
+2024-12-04 17:38:11,393 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 16 (valid) ]:  valid loglike is -7.016838314451867, num_events is 6212, acc is 0.19671603348358016, rmse is 1.9742318108102164
+2024-12-04 17:38:11,735 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 16 (test) ]: test loglike is -37.53672550387579, num_events is 13852, acc is 0.18351140629511983, rmse is 1.7810307706444768
+2024-12-04 17:38:11,735 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -6.2413 (updated at epoch-15)
+2024-12-04 17:38:11,936 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 17 (train) ]: train loglike is -67.37678480735582, num_events is 46363
+2024-12-04 17:38:12,089 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 17 (valid) ]:  valid loglike is -6.003751873893271, num_events is 6212, acc is 0.20122343850611718, rmse is 1.9974470148939691
+2024-12-04 17:38:12,441 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 17 (test) ]: test loglike is -37.252663550953834, num_events is 13852, acc is 0.1867600346520358, rmse is 1.819882768147853
+2024-12-04 17:38:12,442 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -6.0038 (updated at epoch-17), best updated at this epoch
+2024-12-04 17:38:12,649 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 18 (train) ]: train loglike is -61.16623664327562, num_events is 46363
+2024-12-04 17:38:12,804 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 18 (valid) ]:  valid loglike is -5.6689044389890535, num_events is 6212, acc is 0.1955891822279459, rmse is 2.020981536229574
+2024-12-04 17:38:13,163 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 18 (test) ]: test loglike is -35.78201238426762, num_events is 13852, acc is 0.189214553855039, rmse is 1.89153556823587
+2024-12-04 17:38:13,164 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -5.6689 (updated at epoch-18), best updated at this epoch
+2024-12-04 17:38:13,375 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 19 (train) ]: train loglike is -47.129612232039825, num_events is 46363
+2024-12-04 17:38:13,532 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 19 (valid) ]:  valid loglike is -5.537235454060689, num_events is 6212, acc is 0.20734063103670317, rmse is 2.100611311349182
+2024-12-04 17:38:13,880 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 19 (test) ]: test loglike is -32.1513566125379, num_events is 13852, acc is 0.19412359226104534, rmse is 1.951235465582586
+2024-12-04 17:38:13,881 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -5.5372 (updated at epoch-19), best updated at this epoch
+2024-12-04 17:38:14,082 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 20 (train) ]: train loglike is -49.38610955429168, num_events is 46363
+2024-12-04 17:38:14,242 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 20 (valid) ]:  valid loglike is -5.627989425708306, num_events is 6212, acc is 0.20798454603992272, rmse is 2.1352131692467204
+2024-12-04 17:38:14,591 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 20 (test) ]: test loglike is -25.869323924343057, num_events is 13852, acc is 0.19166907305804215, rmse is 2.0009854351131837
+2024-12-04 17:38:14,592 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -5.5372 (updated at epoch-19)
+2024-12-04 17:38:14,794 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 21 (train) ]: train loglike is -46.330434812646935, num_events is 46363
+2024-12-04 17:38:14,954 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 21 (valid) ]:  valid loglike is -5.3279187459755315, num_events is 6212, acc is 0.20235028976175146, rmse is 2.1535967745092894
+2024-12-04 17:38:15,295 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 21 (test) ]: test loglike is -28.052245177253283, num_events is 13852, acc is 0.19527866012128212, rmse is 2.0592133109790853
+2024-12-04 17:38:15,296 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -5.3279 (updated at epoch-21), best updated at this epoch
+2024-12-04 17:38:15,500 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 22 (train) ]: train loglike is -42.08323137944724, num_events is 46363
+2024-12-04 17:38:15,655 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 22 (valid) ]:  valid loglike is -5.071666670858821, num_events is 6212, acc is 0.20685769478428848, rmse is 2.19317470950825
+2024-12-04 17:38:15,996 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 22 (test) ]: test loglike is -26.6216162941272, num_events is 13852, acc is 0.1981663297718741, rmse is 2.092880368240634
+2024-12-04 17:38:15,996 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -5.0717 (updated at epoch-22), best updated at this epoch
+2024-12-04 17:38:16,207 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 23 (train) ]: train loglike is -38.154392460717595, num_events is 46363
+2024-12-04 17:38:16,360 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 23 (valid) ]:  valid loglike is -5.113882405022537, num_events is 6212, acc is 0.21056020605280104, rmse is 2.2284445151383445
+2024-12-04 17:38:16,727 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 23 (test) ]: test loglike is -24.993953871169325, num_events is 13852, acc is 0.1976609875830205, rmse is 2.158036613215757
+2024-12-04 17:38:16,727 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -5.0717 (updated at epoch-22)
+2024-12-04 17:38:17,003 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 24 (train) ]: train loglike is -35.36783111330695, num_events is 46363
+2024-12-04 17:38:17,169 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 24 (valid) ]:  valid loglike is -4.949386645806504, num_events is 6212, acc is 0.20653573728267868, rmse is 2.238586678182401
+2024-12-04 17:38:17,543 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 24 (test) ]: test loglike is -23.974620936958562, num_events is 13852, acc is 0.20054865723361248, rmse is 2.224880086929293
+2024-12-04 17:38:17,543 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.9494 (updated at epoch-24), best updated at this epoch
+2024-12-04 17:38:17,789 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 25 (train) ]: train loglike is -28.758817097887864, num_events is 46363
+2024-12-04 17:38:17,958 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 25 (valid) ]:  valid loglike is -5.164123967472231, num_events is 6212, acc is 0.20734063103670317, rmse is 2.3295961630528854
+2024-12-04 17:38:18,317 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 25 (test) ]: test loglike is -17.62901263411872, num_events is 13852, acc is 0.20199249205890846, rmse is 2.2276471925124217
+2024-12-04 17:38:18,317 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.9494 (updated at epoch-24)
+2024-12-04 17:38:18,566 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 26 (train) ]: train loglike is -28.245957617233838, num_events is 46363
+2024-12-04 17:38:18,748 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 26 (valid) ]:  valid loglike is -5.161146332199775, num_events is 6212, acc is 0.2087894397939472, rmse is 2.372265780790587
+2024-12-04 17:38:19,149 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 26 (test) ]: test loglike is -22.161815743552374, num_events is 13852, acc is 0.20408605255558765, rmse is 2.285906922942826
+2024-12-04 17:38:19,149 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.9494 (updated at epoch-24)
+2024-12-04 17:38:19,427 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 27 (train) ]: train loglike is -27.691697809608417, num_events is 46363
+2024-12-04 17:38:19,604 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 27 (valid) ]:  valid loglike is -4.907950966878622, num_events is 6212, acc is 0.21200901481004508, rmse is 2.414978101961284
+2024-12-04 17:38:20,005 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 27 (test) ]: test loglike is -15.87375582045914, num_events is 13852, acc is 0.20329194340167484, rmse is 2.3319081995685242
+2024-12-04 17:38:20,006 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.9080 (updated at epoch-27), best updated at this epoch
+2024-12-04 17:38:20,260 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 28 (train) ]: train loglike is -26.878353925476674, num_events is 46363
+2024-12-04 17:38:20,430 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 28 (valid) ]:  valid loglike is -4.941800836586445, num_events is 6212, acc is 0.2161944623309723, rmse is 2.418869846786484
+2024-12-04 17:38:20,796 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 28 (test) ]: test loglike is -15.204181297714229, num_events is 13852, acc is 0.2108720762344788, rmse is 2.393965259647871
+2024-12-04 17:38:20,797 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.9080 (updated at epoch-27)
+2024-12-04 17:38:20,999 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 29 (train) ]: train loglike is -24.13437420380341, num_events is 46363
+2024-12-04 17:38:21,154 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 29 (valid) ]:  valid loglike is -4.97630656893915, num_events is 6212, acc is 0.21442369607211847, rmse is 2.457827892230483
+2024-12-04 17:38:21,518 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 29 (test) ]: test loglike is -13.53358953411511, num_events is 13852, acc is 0.20545769563961883, rmse is 2.4380563452157142
+2024-12-04 17:38:21,519 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.9080 (updated at epoch-27)
+2024-12-04 17:38:21,727 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 30 (train) ]: train loglike is -25.519965872233787, num_events is 46363
+2024-12-04 17:38:21,890 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 30 (valid) ]:  valid loglike is -4.787244571997746, num_events is 6212, acc is 0.21957501609787508, rmse is 2.505074802190021
+2024-12-04 17:38:22,250 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 30 (test) ]: test loglike is -14.034498416857675, num_events is 13852, acc is 0.20415824429685245, rmse is 2.46357609179015
+2024-12-04 17:38:22,252 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7872 (updated at epoch-30), best updated at this epoch
+2024-12-04 17:38:22,454 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 31 (train) ]: train loglike is -21.480862761995017, num_events is 46363
+2024-12-04 17:38:22,610 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 31 (valid) ]:  valid loglike is -4.878152133723036, num_events is 6212, acc is 0.22118480360592402, rmse is 2.5033262889284176
+2024-12-04 17:38:22,962 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 31 (test) ]: test loglike is -16.32101686297556, num_events is 13852, acc is 0.21209933583598037, rmse is 2.50175277738141
+2024-12-04 17:38:22,962 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7872 (updated at epoch-30)
+2024-12-04 17:38:23,162 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 32 (train) ]: train loglike is -20.7655043277708, num_events is 46363
+2024-12-04 17:38:23,314 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 32 (valid) ]:  valid loglike is -4.704967766520444, num_events is 6212, acc is 0.2168383773341919, rmse is 2.563257962722857
+2024-12-04 17:38:23,685 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 32 (test) ]: test loglike is -11.239589725310424, num_events is 13852, acc is 0.21029454230436037, rmse is 2.5595027219651243
+2024-12-04 17:38:23,686 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7050 (updated at epoch-32), best updated at this epoch
+2024-12-04 17:38:23,884 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 33 (train) ]: train loglike is -18.325300566319047, num_events is 46363
+2024-12-04 17:38:24,046 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 33 (valid) ]:  valid loglike is -4.88478213161019, num_events is 6212, acc is 0.23036059240180295, rmse is 2.595693857099631
+2024-12-04 17:38:24,394 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 33 (test) ]: test loglike is -11.816020475382617, num_events is 13852, acc is 0.21325440369621715, rmse is 2.5815813515686417
+2024-12-04 17:38:24,395 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7050 (updated at epoch-32)
+2024-12-04 17:38:24,599 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 34 (train) ]: train loglike is -17.936980787144382, num_events is 46363
+2024-12-04 17:38:24,758 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 34 (valid) ]:  valid loglike is -4.808082831113168, num_events is 6212, acc is 0.2292337411461687, rmse is 2.621188138301928
+2024-12-04 17:38:25,118 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 34 (test) ]: test loglike is -11.032773570039526, num_events is 13852, acc is 0.21520358071036674, rmse is 2.6170943324507006
+2024-12-04 17:38:25,119 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7050 (updated at epoch-32)
+2024-12-04 17:38:25,329 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 35 (train) ]: train loglike is -18.004622026521687, num_events is 46363
+2024-12-04 17:38:25,484 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 35 (valid) ]:  valid loglike is -4.837749454181423, num_events is 6212, acc is 0.22295556986477785, rmse is 2.6711722507489544
+2024-12-04 17:38:25,844 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 35 (test) ]: test loglike is -15.216749287670552, num_events is 13852, acc is 0.2180190586196939, rmse is 2.6622603295013327
+2024-12-04 17:38:25,844 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7050 (updated at epoch-32)
+2024-12-04 17:38:26,043 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 36 (train) ]: train loglike is -16.92647385677965, num_events is 46363
+2024-12-04 17:38:26,206 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 36 (valid) ]:  valid loglike is -4.773985047840872, num_events is 6212, acc is 0.22778493238892467, rmse is 2.7129596443657316
+2024-12-04 17:38:26,569 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 36 (test) ]: test loglike is -12.270451412702137, num_events is 13852, acc is 0.21643084031186832, rmse is 2.720745576581085
+2024-12-04 17:38:26,569 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7050 (updated at epoch-32)
+2024-12-04 17:38:26,772 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 37 (train) ]: train loglike is -16.796064985818433, num_events is 46363
+2024-12-04 17:38:26,939 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 37 (valid) ]:  valid loglike is -4.714184743238892, num_events is 6212, acc is 0.22649710238248552, rmse is 2.7442099407121727
+2024-12-04 17:38:27,299 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 37 (test) ]: test loglike is -12.280566998447878, num_events is 13852, acc is 0.21202714409471557, rmse is 2.717257781699407
+2024-12-04 17:38:27,299 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.7050 (updated at epoch-32)
+2024-12-04 17:38:27,505 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 38 (train) ]: train loglike is -15.465689866852339, num_events is 46363
+2024-12-04 17:38:27,663 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 38 (valid) ]:  valid loglike is -4.5810147572239215, num_events is 6212, acc is 0.2244043786220219, rmse is 2.800976513099062
+2024-12-04 17:38:28,006 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 38 (test) ]: test loglike is -9.704514691019348, num_events is 13852, acc is 0.21570892289922033, rmse is 2.75642632800706
+2024-12-04 17:38:28,006 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5810 (updated at epoch-38), best updated at this epoch
+2024-12-04 17:38:28,209 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 39 (train) ]: train loglike is -14.35827871312388, num_events is 46363
+2024-12-04 17:38:28,380 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 39 (valid) ]:  valid loglike is -4.573271742192531, num_events is 6212, acc is 0.2237604636188023, rmse is 2.801214040187614
+2024-12-04 17:38:28,736 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 39 (test) ]: test loglike is -7.969986988566633, num_events is 13852, acc is 0.22458850707479064, rmse is 2.7971779428293515
+2024-12-04 17:38:28,737 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39), best updated at this epoch
+2024-12-04 17:38:28,946 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 40 (train) ]: train loglike is -16.905876335251172, num_events is 46363
+2024-12-04 17:38:29,113 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 40 (valid) ]:  valid loglike is -4.67076748505916, num_events is 6212, acc is 0.23341918866709593, rmse is 2.856943500633977
+2024-12-04 17:38:29,473 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 40 (test) ]: test loglike is -10.347946990957984, num_events is 13852, acc is 0.2175137164308403, rmse is 2.8523853077678676
+2024-12-04 17:38:29,474 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:29,682 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 41 (train) ]: train loglike is -13.4473771767762, num_events is 46363
+2024-12-04 17:38:29,850 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 41 (valid) ]:  valid loglike is -4.648139594987524, num_events is 6212, acc is 0.23309723116548617, rmse is 2.8538677558559877
+2024-12-04 17:38:30,212 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 41 (test) ]: test loglike is -9.603141694340167, num_events is 13852, acc is 0.2193907017037251, rmse is 2.8591398718393517
+2024-12-04 17:38:30,212 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:30,412 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 42 (train) ]: train loglike is -13.708659724787276, num_events is 46363
+2024-12-04 17:38:30,575 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 42 (valid) ]:  valid loglike is -4.62795908498672, num_events is 6212, acc is 0.22553122987765614, rmse is 2.907513263873268
+2024-12-04 17:38:30,928 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 42 (test) ]: test loglike is -8.804275640476105, num_events is 13852, acc is 0.2178024833958995, rmse is 2.874610803243847
+2024-12-04 17:38:30,928 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:31,134 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 43 (train) ]: train loglike is -13.562207934869939, num_events is 46363
+2024-12-04 17:38:31,297 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 43 (valid) ]:  valid loglike is -4.602380441836365, num_events is 6212, acc is 0.22585318737926594, rmse is 2.903762096717932
+2024-12-04 17:38:31,653 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 43 (test) ]: test loglike is -9.340624534701668, num_events is 13852, acc is 0.22220617961305228, rmse is 2.941717607633244
+2024-12-04 17:38:31,654 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:31,863 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 44 (train) ]: train loglike is -12.441568712018475, num_events is 46363
+2024-12-04 17:38:32,029 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 44 (valid) ]:  valid loglike is -4.702932108469494, num_events is 6212, acc is 0.2316484224082421, rmse is 2.9835891329374062
+2024-12-04 17:38:32,387 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 44 (test) ]: test loglike is -9.558249781732782, num_events is 13852, acc is 0.2191741264799307, rmse is 2.956446505138956
+2024-12-04 17:38:32,388 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:32,582 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 45 (train) ]: train loglike is -12.312071907420789, num_events is 46363
+2024-12-04 17:38:32,743 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 45 (valid) ]:  valid loglike is -4.7985415388059405, num_events is 6212, acc is 0.23374114616870573, rmse is 3.0160279980619484
+2024-12-04 17:38:33,108 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 45 (test) ]: test loglike is -7.9625248723108575, num_events is 13852, acc is 0.22292809702570027, rmse is 2.991312804415409
+2024-12-04 17:38:33,108 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:33,370 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 46 (train) ]: train loglike is -12.42937837351444, num_events is 46363
+2024-12-04 17:38:33,530 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 46 (valid) ]:  valid loglike is -4.621881036703155, num_events is 6212, acc is 0.22714101738570508, rmse is 2.9932194456016217
+2024-12-04 17:38:33,888 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 46 (test) ]: test loglike is -8.410672308150447, num_events is 13852, acc is 0.2194628934449899, rmse is 3.026713428299462
+2024-12-04 17:38:33,889 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:34,103 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 47 (train) ]: train loglike is -11.513099182167084, num_events is 46363
+2024-12-04 17:38:34,280 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 47 (valid) ]:  valid loglike is -4.6388763997605444, num_events is 6212, acc is 0.22263361236316806, rmse is 2.9887768781040105
+2024-12-04 17:38:34,658 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 47 (test) ]: test loglike is -8.610882848595871, num_events is 13852, acc is 0.2189575512561363, rmse is 3.0322737712476275
+2024-12-04 17:38:34,659 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:34,876 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 48 (train) ]: train loglike is -11.187085640758795, num_events is 46363
+2024-12-04 17:38:35,035 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 48 (valid) ]:  valid loglike is -4.5857381630312295, num_events is 6212, acc is 0.2293947198969736, rmse is 3.025135972999799
+2024-12-04 17:38:35,389 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 48 (test) ]: test loglike is -7.989011909381317, num_events is 13852, acc is 0.22350563095581866, rmse is 3.0753651190621722
+2024-12-04 17:38:35,389 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:35,598 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 49 (train) ]: train loglike is -11.347961248058796, num_events is 46363
+2024-12-04 17:38:35,768 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 49 (valid) ]:  valid loglike is -4.659258919228912, num_events is 6212, acc is 0.24323889246619446, rmse is 3.0611334796025402
+2024-12-04 17:38:36,108 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 49 (test) ]: test loglike is -9.212569569150665, num_events is 13852, acc is 0.22184522090672826, rmse is 3.1144662449476805
+2024-12-04 17:38:36,109 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5733 (updated at epoch-39)
+2024-12-04 17:38:36,315 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 50 (train) ]: train loglike is -11.129821728634633, num_events is 46363
+2024-12-04 17:38:36,475 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 50 (valid) ]:  valid loglike is -4.550932010373068, num_events is 6212, acc is 0.23905344494526723, rmse is 3.0956626939966765
+2024-12-04 17:38:36,854 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 50 (test) ]: test loglike is -7.754364639357132, num_events is 13852, acc is 0.22054576956396188, rmse is 3.1361886525111773
+2024-12-04 17:38:36,854 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50), best updated at this epoch
+2024-12-04 17:38:37,076 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 51 (train) ]: train loglike is -11.266082033693355, num_events is 46363
+2024-12-04 17:38:37,238 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 51 (valid) ]:  valid loglike is -4.656297476155022, num_events is 6212, acc is 0.23422408242112042, rmse is 3.1260189404915577
+2024-12-04 17:38:37,613 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 51 (test) ]: test loglike is -10.146238753880306, num_events is 13852, acc is 0.22451631533352584, rmse is 3.149386427895728
+2024-12-04 17:38:37,614 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:37,830 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 52 (train) ]: train loglike is -11.71568702329309, num_events is 46363
+2024-12-04 17:38:38,000 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 52 (valid) ]:  valid loglike is -4.684808636509981, num_events is 6212, acc is 0.23003863490019316, rmse is 3.1526131008001173
+2024-12-04 17:38:38,362 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 52 (test) ]: test loglike is -7.883851384276639, num_events is 13852, acc is 0.22328905573202426, rmse is 3.232996560431444
+2024-12-04 17:38:38,362 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:38,572 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 53 (train) ]: train loglike is -11.12972060324235, num_events is 46363
+2024-12-04 17:38:38,732 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 53 (valid) ]:  valid loglike is -4.5849373566283, num_events is 6212, acc is 0.23937540244687702, rmse is 3.1560631185386905
+2024-12-04 17:38:39,113 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 53 (test) ]: test loglike is -7.369554458516821, num_events is 13852, acc is 0.22177302916546346, rmse is 3.2248699971127794
+2024-12-04 17:38:39,114 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:39,318 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 54 (train) ]: train loglike is -10.493640579840067, num_events is 46363
+2024-12-04 17:38:39,488 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 54 (valid) ]:  valid loglike is -4.641588671623471, num_events is 6212, acc is 0.23229233741146169, rmse is 3.1693324436375807
+2024-12-04 17:38:39,850 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 54 (test) ]: test loglike is -7.852444592838579, num_events is 13852, acc is 0.22235056309558188, rmse is 3.252358158089597
+2024-12-04 17:38:39,852 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:40,056 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 55 (train) ]: train loglike is -10.110569463392144, num_events is 46363
+2024-12-04 17:38:40,210 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 55 (valid) ]:  valid loglike is -4.634976909610431, num_events is 6212, acc is 0.2347070186735351, rmse is 3.247116202914223
+2024-12-04 17:38:40,571 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 55 (test) ]: test loglike is -7.232903247274762, num_events is 13852, acc is 0.22235056309558188, rmse is 3.2689438618976725
+2024-12-04 17:38:40,572 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:40,782 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 56 (train) ]: train loglike is -10.116111328672648, num_events is 46363
+2024-12-04 17:38:40,948 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 56 (valid) ]:  valid loglike is -4.653390269086043, num_events is 6212, acc is 0.23309723116548617, rmse is 3.1644852636132517
+2024-12-04 17:38:41,327 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 56 (test) ]: test loglike is -7.044098578950693, num_events is 13852, acc is 0.22090672827028587, rmse is 3.271166329601963
+2024-12-04 17:38:41,328 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:41,536 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 57 (train) ]: train loglike is -10.488556359091572, num_events is 46363
+2024-12-04 17:38:41,702 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 57 (valid) ]:  valid loglike is -4.618593863188184, num_events is 6212, acc is 0.23229233741146169, rmse is 3.2632110891580486
+2024-12-04 17:38:42,070 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 57 (test) ]: test loglike is -7.447157337388103, num_events is 13852, acc is 0.22184522090672826, rmse is 3.2942707084850498
+2024-12-04 17:38:42,070 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:42,272 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 58 (train) ]: train loglike is -10.076459137674439, num_events is 46363
+2024-12-04 17:38:42,444 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 58 (valid) ]:  valid loglike is -4.597251602241629, num_events is 6212, acc is 0.23390212491951062, rmse is 3.263932336744971
+2024-12-04 17:38:42,797 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 58 (test) ]: test loglike is -6.872786307933873, num_events is 13852, acc is 0.22025700259890268, rmse is 3.3697617922907557
+2024-12-04 17:38:42,798 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:43,005 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 59 (train) ]: train loglike is -9.59018464009555, num_events is 46363
+2024-12-04 17:38:43,154 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 59 (valid) ]:  valid loglike is -4.583898069009578, num_events is 6212, acc is 0.24050225370251127, rmse is 3.3030496528332045
+2024-12-04 17:38:43,525 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 59 (test) ]: test loglike is -6.304432431914164, num_events is 13852, acc is 0.22588795841755704, rmse is 3.3691443456327037
+2024-12-04 17:38:43,526 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:43,737 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 60 (train) ]: train loglike is -9.32922526785907, num_events is 46363
+2024-12-04 17:38:43,905 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 60 (valid) ]:  valid loglike is -4.6078669246518835, num_events is 6212, acc is 0.22633612363168062, rmse is 3.2793635588456107
+2024-12-04 17:38:44,278 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 60 (test) ]: test loglike is -6.650314203273895, num_events is 13852, acc is 0.22444412359226104, rmse is 3.3719513365567266
+2024-12-04 17:38:44,279 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:44,490 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 61 (train) ]: train loglike is -9.42470895433859, num_events is 46363
+2024-12-04 17:38:44,655 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 61 (valid) ]:  valid loglike is -4.715890111880232, num_events is 6212, acc is 0.22617514488087573, rmse is 3.3469052770823504
+2024-12-04 17:38:45,010 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 61 (test) ]: test loglike is -7.298940360597747, num_events is 13852, acc is 0.22328905573202426, rmse is 3.419264698510967
+2024-12-04 17:38:45,010 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:45,213 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 62 (train) ]: train loglike is -9.088837656610606, num_events is 46363
+2024-12-04 17:38:45,378 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 62 (valid) ]:  valid loglike is -4.704348532829604, num_events is 6212, acc is 0.2347070186735351, rmse is 3.344030305698193
+2024-12-04 17:38:45,738 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 62 (test) ]: test loglike is -7.126592307293171, num_events is 13852, acc is 0.22538261622870343, rmse is 3.4136352628966122
+2024-12-04 17:38:45,738 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:45,956 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 63 (train) ]: train loglike is -9.210312717374308, num_events is 46363
+2024-12-04 17:38:46,115 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 63 (valid) ]:  valid loglike is -4.7272505898362045, num_events is 6212, acc is 0.23003863490019316, rmse is 3.39093908796247
+2024-12-04 17:38:46,479 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 63 (test) ]: test loglike is -7.427224802826307, num_events is 13852, acc is 0.22177302916546346, rmse is 3.4460098511383395
+2024-12-04 17:38:46,479 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:46,686 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 64 (train) ]: train loglike is -9.459859896361323, num_events is 46363
+2024-12-04 17:38:46,854 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 64 (valid) ]:  valid loglike is -4.635041206787267, num_events is 6212, acc is 0.23374114616870573, rmse is 3.3873214775728115
+2024-12-04 17:38:47,252 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 64 (test) ]: test loglike is -7.068453280663442, num_events is 13852, acc is 0.2189575512561363, rmse is 3.469106618676568
+2024-12-04 17:38:47,253 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:47,459 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 65 (train) ]: train loglike is -8.752888066217944, num_events is 46363
+2024-12-04 17:38:47,627 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 65 (valid) ]:  valid loglike is -4.632924744949292, num_events is 6212, acc is 0.24050225370251127, rmse is 3.429406910006969
+2024-12-04 17:38:48,007 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 65 (test) ]: test loglike is -6.606884807924849, num_events is 13852, acc is 0.2175859081721051, rmse is 3.462123358016627
+2024-12-04 17:38:48,008 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:48,226 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 66 (train) ]: train loglike is -8.816471672926149, num_events is 46363
+2024-12-04 17:38:48,401 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 66 (valid) ]:  valid loglike is -4.62225188521209, num_events is 6212, acc is 0.23100450740502254, rmse is 3.4113953645597017
+2024-12-04 17:38:48,755 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 66 (test) ]: test loglike is -7.19155035148354, num_events is 13852, acc is 0.22155645394166906, rmse is 3.513799892672407
+2024-12-04 17:38:48,756 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:48,963 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 67 (train) ]: train loglike is -8.433928026187369, num_events is 46363
+2024-12-04 17:38:49,137 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 67 (valid) ]:  valid loglike is -4.684990366427882, num_events is 6212, acc is 0.2235994848679974, rmse is 3.460861917585072
+2024-12-04 17:38:49,527 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 67 (test) ]: test loglike is -6.788476224101212, num_events is 13852, acc is 0.22408316488593705, rmse is 3.5492697775930147
+2024-12-04 17:38:49,528 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:49,738 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 68 (train) ]: train loglike is -8.947078603054969, num_events is 46363
+2024-12-04 17:38:49,899 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 68 (valid) ]:  valid loglike is -4.608785006590067, num_events is 6212, acc is 0.2293947198969736, rmse is 3.48134953152882
+2024-12-04 17:38:50,279 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 68 (test) ]: test loglike is -6.4081336122491335, num_events is 13852, acc is 0.2179468668784291, rmse is 3.547890246172313
+2024-12-04 17:38:50,279 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:50,484 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 69 (train) ]: train loglike is -8.357033845011108, num_events is 46363
+2024-12-04 17:38:50,647 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 69 (valid) ]:  valid loglike is -4.674371742695589, num_events is 6212, acc is 0.23100450740502254, rmse is 3.452424854946542
+2024-12-04 17:38:51,020 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 69 (test) ]: test loglike is -6.922361307257074, num_events is 13852, acc is 0.22112330349408027, rmse is 3.545244140291765
+2024-12-04 17:38:51,022 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:51,218 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 70 (train) ]: train loglike is -8.691064306734358, num_events is 46363
+2024-12-04 17:38:51,388 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 70 (valid) ]:  valid loglike is -4.634606532718931, num_events is 6212, acc is 0.23052157115260785, rmse is 3.505744370349692
+2024-12-04 17:38:51,756 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 70 (test) ]: test loglike is -7.093366340375036, num_events is 13852, acc is 0.21144961016459718, rmse is 3.5951105145725806
+2024-12-04 17:38:51,756 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:51,963 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 71 (train) ]: train loglike is -8.617081867039719, num_events is 46363
+2024-12-04 17:38:52,134 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 71 (valid) ]:  valid loglike is -4.611894694744044, num_events is 6212, acc is 0.2289117836445589, rmse is 3.5636928318691865
+2024-12-04 17:38:52,507 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 71 (test) ]: test loglike is -6.277297079167268, num_events is 13852, acc is 0.22357782269708346, rmse is 3.59592971113565
+2024-12-04 17:38:52,508 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:52,723 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 72 (train) ]: train loglike is -8.303121035867772, num_events is 46363
+2024-12-04 17:38:52,890 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 72 (valid) ]:  valid loglike is -4.688664895061977, num_events is 6212, acc is 0.23019961365099806, rmse is 3.5092445706980344
+2024-12-04 17:38:53,267 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 72 (test) ]: test loglike is -6.213183480950404, num_events is 13852, acc is 0.22357782269708346, rmse is 3.600291966397419
+2024-12-04 17:38:53,267 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:53,470 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 73 (train) ]: train loglike is -8.810050579125596, num_events is 46363
+2024-12-04 17:38:53,638 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 73 (valid) ]:  valid loglike is -4.7127642315276885, num_events is 6212, acc is 0.22520927237604635, rmse is 3.5267599465578474
+2024-12-04 17:38:54,011 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 73 (test) ]: test loglike is -6.7058804121246025, num_events is 13852, acc is 0.22588795841755704, rmse is 3.639777661912554
+2024-12-04 17:38:54,011 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:54,214 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 74 (train) ]: train loglike is -8.017053835864536, num_events is 46363
+2024-12-04 17:38:54,400 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 74 (valid) ]:  valid loglike is -4.711616314693336, num_events is 6212, acc is 0.22520927237604635, rmse is 3.581232795574181
+2024-12-04 17:38:54,775 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 74 (test) ]: test loglike is -6.429153957912215, num_events is 13852, acc is 0.22040138608143228, rmse is 3.694971383802254
+2024-12-04 17:38:54,776 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:54,989 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 75 (train) ]: train loglike is -7.926759160557719, num_events is 46363
+2024-12-04 17:38:55,158 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 75 (valid) ]:  valid loglike is -4.714287555839504, num_events is 6212, acc is 0.23100450740502254, rmse is 3.550477085191327
+2024-12-04 17:38:55,534 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 75 (test) ]: test loglike is -6.629569088624386, num_events is 13852, acc is 0.22386658966214265, rmse is 3.6751950727696796
+2024-12-04 17:38:55,534 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:55,738 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 76 (train) ]: train loglike is -7.762677534988838, num_events is 46363
+2024-12-04 17:38:55,900 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 76 (valid) ]:  valid loglike is -4.677353622524952, num_events is 6212, acc is 0.2239214423696072, rmse is 3.639074147721275
+2024-12-04 17:38:56,275 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 76 (test) ]: test loglike is -5.936402177934594, num_events is 13852, acc is 0.22141207045913947, rmse is 3.703687231577751
+2024-12-04 17:38:56,275 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:56,475 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 77 (train) ]: train loglike is -7.646774418043483, num_events is 46363
+2024-12-04 17:38:56,642 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 77 (valid) ]:  valid loglike is -4.695369880121136, num_events is 6212, acc is 0.2295556986477785, rmse is 3.6271716119965665
+2024-12-04 17:38:57,013 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 77 (test) ]: test loglike is -6.364905423178963, num_events is 13852, acc is 0.22235056309558188, rmse is 3.6800025131316714
+2024-12-04 17:38:57,013 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:57,208 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 78 (train) ]: train loglike is -7.997515592815122, num_events is 46363
+2024-12-04 17:38:57,374 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 78 (valid) ]:  valid loglike is -4.634776314995171, num_events is 6212, acc is 0.22263361236316806, rmse is 3.5847516382788056
+2024-12-04 17:38:57,764 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 78 (test) ]: test loglike is -6.257711967360309, num_events is 13852, acc is 0.22429974010973144, rmse is 3.692464475958036
+2024-12-04 17:38:57,765 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:57,965 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 79 (train) ]: train loglike is -8.164871966533118, num_events is 46363
+2024-12-04 17:38:58,140 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 79 (valid) ]:  valid loglike is -4.680419607463377, num_events is 6212, acc is 0.22875080489375402, rmse is 3.653531246338049
+2024-12-04 17:38:58,522 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 79 (test) ]: test loglike is -6.147749140467081, num_events is 13852, acc is 0.2191741264799307, rmse is 3.745030668581296
+2024-12-04 17:38:58,522 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:58,749 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 80 (train) ]: train loglike is -7.623913844620171, num_events is 46363
+2024-12-04 17:38:58,941 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 80 (valid) ]:  valid loglike is -4.709345948366066, num_events is 6212, acc is 0.2343850611719253, rmse is 3.681807501379785
+2024-12-04 17:38:59,322 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 80 (test) ]: test loglike is -6.19829999729281, num_events is 13852, acc is 0.22242275483684668, rmse is 3.770774419442973
+2024-12-04 17:38:59,322 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:38:59,526 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 81 (train) ]: train loglike is -7.712339501090579, num_events is 46363
+2024-12-04 17:38:59,699 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 81 (valid) ]:  valid loglike is -4.690093267063747, num_events is 6212, acc is 0.2244043786220219, rmse is 3.6856974708506045
+2024-12-04 17:39:00,078 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 81 (test) ]: test loglike is -6.119477190793749, num_events is 13852, acc is 0.22285590528443547, rmse is 3.7747234936114955
+2024-12-04 17:39:00,079 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:00,286 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 82 (train) ]: train loglike is -7.768323958996128, num_events is 46363
+2024-12-04 17:39:00,452 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 82 (valid) ]:  valid loglike is -4.692387214262717, num_events is 6212, acc is 0.2316484224082421, rmse is 3.7248989948826132
+2024-12-04 17:39:00,813 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 82 (test) ]: test loglike is -6.252750054143806, num_events is 13852, acc is 0.21592549812301473, rmse is 3.7574726696512997
+2024-12-04 17:39:00,814 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:01,014 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 83 (train) ]: train loglike is -7.5002568471221664, num_events is 46363
+2024-12-04 17:39:01,184 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 83 (valid) ]:  valid loglike is -4.673815548535093, num_events is 6212, acc is 0.22054088860270443, rmse is 3.6854536694494824
+2024-12-04 17:39:01,562 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 83 (test) ]: test loglike is -6.4299648460059915, num_events is 13852, acc is 0.22328905573202426, rmse is 3.7719212487539395
+2024-12-04 17:39:01,562 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:01,770 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 84 (train) ]: train loglike is -7.364791643356502, num_events is 46363
+2024-12-04 17:39:01,934 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 84 (valid) ]:  valid loglike is -4.657703210519961, num_events is 6212, acc is 0.23132646490663233, rmse is 3.7126734429533443
+2024-12-04 17:39:02,300 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 84 (test) ]: test loglike is -5.9824355519509815, num_events is 13852, acc is 0.21830782558475312, rmse is 3.810127950535288
+2024-12-04 17:39:02,301 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:02,503 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 85 (train) ]: train loglike is -7.7845575859926015, num_events is 46363
+2024-12-04 17:39:02,669 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 85 (valid) ]:  valid loglike is -4.6797206704261916, num_events is 6212, acc is 0.22875080489375402, rmse is 3.660699410591114
+2024-12-04 17:39:03,036 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 85 (test) ]: test loglike is -6.027279736229425, num_events is 13852, acc is 0.22271152180190587, rmse is 3.7770885039326307
+2024-12-04 17:39:03,036 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:03,246 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 86 (train) ]: train loglike is -7.293714710376539, num_events is 46363
+2024-12-04 17:39:03,421 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 86 (valid) ]:  valid loglike is -4.683235635161783, num_events is 6212, acc is 0.23325820991629104, rmse is 3.6810552124991234
+2024-12-04 17:39:03,789 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 86 (test) ]: test loglike is -5.735793454916258, num_events is 13852, acc is 0.22206179613052268, rmse is 3.799877795121806
+2024-12-04 17:39:03,789 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:03,993 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 87 (train) ]: train loglike is -7.403587543879278, num_events is 46363
+2024-12-04 17:39:04,156 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 87 (valid) ]:  valid loglike is -4.683083774348036, num_events is 6212, acc is 0.2298776561493883, rmse is 3.7663951505078956
+2024-12-04 17:39:04,533 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 87 (test) ]: test loglike is -6.1680470047195355, num_events is 13852, acc is 0.2194628934449899, rmse is 3.811901252991296
+2024-12-04 17:39:04,534 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:04,738 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 88 (train) ]: train loglike is -7.0954762721620686, num_events is 46363
+2024-12-04 17:39:04,900 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 88 (valid) ]:  valid loglike is -4.683986292910898, num_events is 6212, acc is 0.23003863490019316, rmse is 3.7821593207355804
+2024-12-04 17:39:05,273 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 88 (test) ]: test loglike is -5.702228102214482, num_events is 13852, acc is 0.2188131677736067, rmse is 3.870599904151115
+2024-12-04 17:39:05,273 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:05,478 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 89 (train) ]: train loglike is -7.346778453791278, num_events is 46363
+2024-12-04 17:39:05,640 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 89 (valid) ]:  valid loglike is -4.69989457778292, num_events is 6212, acc is 0.2297166773985834, rmse is 3.7713055750401563
+2024-12-04 17:39:06,009 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 89 (test) ]: test loglike is -6.159144155627346, num_events is 13852, acc is 0.22025700259890268, rmse is 3.884396181301242
+2024-12-04 17:39:06,010 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:06,239 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 90 (train) ]: train loglike is -7.381908585172983, num_events is 46363
+2024-12-04 17:39:06,408 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 90 (valid) ]:  valid loglike is -4.685417494617273, num_events is 6212, acc is 0.23229233741146169, rmse is 3.7471284501969357
+2024-12-04 17:39:06,795 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 90 (test) ]: test loglike is -6.212691251714554, num_events is 13852, acc is 0.21635864857060352, rmse is 3.841305991898061
+2024-12-04 17:39:06,795 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:07,017 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 91 (train) ]: train loglike is -7.1210926125763, num_events is 46363
+2024-12-04 17:39:07,188 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 91 (valid) ]:  valid loglike is -4.721029955881761, num_events is 6212, acc is 0.2240824211204121, rmse is 3.810914292097538
+2024-12-04 17:39:07,555 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 91 (test) ]: test loglike is -6.317308082767831, num_events is 13852, acc is 0.2181634421022235, rmse is 3.8408259160905542
+2024-12-04 17:39:07,555 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:07,764 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 92 (train) ]: train loglike is -7.297770510529679, num_events is 46363
+2024-12-04 17:39:07,935 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 92 (valid) ]:  valid loglike is -4.736945315015293, num_events is 6212, acc is 0.2293947198969736, rmse is 3.7434303323079767
+2024-12-04 17:39:08,320 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 92 (test) ]: test loglike is -6.052245952750505, num_events is 13852, acc is 0.22141207045913947, rmse is 3.853951184132243
+2024-12-04 17:39:08,320 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:08,534 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 93 (train) ]: train loglike is -7.142593143205519, num_events is 46363
+2024-12-04 17:39:08,712 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 93 (valid) ]:  valid loglike is -4.674218467029539, num_events is 6212, acc is 0.2371216999356085, rmse is 3.7967044236373146
+2024-12-04 17:39:09,084 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 93 (test) ]: test loglike is -6.0981948680695925, num_events is 13852, acc is 0.22054576956396188, rmse is 3.8800032948286076
+2024-12-04 17:39:09,085 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:09,300 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 94 (train) ]: train loglike is -7.14376536364531, num_events is 46363
+2024-12-04 17:39:09,470 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 94 (valid) ]:  valid loglike is -4.737622714856326, num_events is 6212, acc is 0.2218287186091436, rmse is 3.7771688907115304
+2024-12-04 17:39:09,840 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 94 (test) ]: test loglike is -6.015133052763139, num_events is 13852, acc is 0.22083453652902107, rmse is 3.90558844315098
+2024-12-04 17:39:09,840 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:10,049 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 95 (train) ]: train loglike is -7.3401262523456205, num_events is 46363
+2024-12-04 17:39:10,211 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 95 (valid) ]:  valid loglike is -4.686420624899388, num_events is 6212, acc is 0.22858982614294912, rmse is 3.8187897045959316
+2024-12-04 17:39:10,583 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 95 (test) ]: test loglike is -5.7470746834843345, num_events is 13852, acc is 0.21231591105977476, rmse is 3.896442074049634
+2024-12-04 17:39:10,583 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:10,803 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 96 (train) ]: train loglike is -6.897254832112892, num_events is 46363
+2024-12-04 17:39:10,993 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 96 (valid) ]:  valid loglike is -4.716335004326304, num_events is 6212, acc is 0.22810688989053446, rmse is 3.799800421748393
+2024-12-04 17:39:11,394 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 96 (test) ]: test loglike is -5.9235449980147274, num_events is 13852, acc is 0.22429974010973144, rmse is 3.913810370964452
+2024-12-04 17:39:11,395 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:11,614 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 97 (train) ]: train loglike is -6.964930868230054, num_events is 46363
+2024-12-04 17:39:11,786 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 97 (valid) ]:  valid loglike is -4.693978765896651, num_events is 6212, acc is 0.23551191242755956, rmse is 3.8586155649185567
+2024-12-04 17:39:12,162 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 97 (test) ]: test loglike is -5.916191169370849, num_events is 13852, acc is 0.21520358071036674, rmse is 3.8993371822682668
+2024-12-04 17:39:12,162 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:12,368 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 98 (train) ]: train loglike is -6.954538312137372, num_events is 46363
+2024-12-04 17:39:12,527 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 98 (valid) ]:  valid loglike is -4.732547954060689, num_events is 6212, acc is 0.23293625241468127, rmse is 3.8368832176058345
+2024-12-04 17:39:12,888 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 98 (test) ]: test loglike is -5.928320368899798, num_events is 13852, acc is 0.22249494657811147, rmse is 3.9770563000177677
+2024-12-04 17:39:12,888 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:13,090 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 99 (train) ]: train loglike is -6.900008324256412, num_events is 46363
+2024-12-04 17:39:13,262 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 99 (valid) ]:  valid loglike is -4.692457013642949, num_events is 6212, acc is 0.23599484867997425, rmse is 3.8811012204167583
+2024-12-04 17:39:13,633 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 99 (test) ]: test loglike is -5.975776427817283, num_events is 13852, acc is 0.22263933006064107, rmse is 3.9507042770375502
+2024-12-04 17:39:13,633 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:13,821 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 100 (train) ]: train loglike is -7.014595673678365, num_events is 46363
+2024-12-04 17:39:13,989 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 100 (valid) ]:  valid loglike is -4.7214811365602865, num_events is 6212, acc is 0.23148744365743723, rmse is 3.878596948448387
+2024-12-04 17:39:14,366 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 100 (test) ]: test loglike is -5.650170947787323, num_events is 13852, acc is 0.21383193762633554, rmse is 3.9537217618676577
+2024-12-04 17:39:14,366 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:14,567 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 101 (train) ]: train loglike is -6.790621865765805, num_events is 46363
+2024-12-04 17:39:14,729 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 101 (valid) ]:  valid loglike is -4.773005498430457, num_events is 6212, acc is 0.2163554410817772, rmse is 3.8348610106406227
+2024-12-04 17:39:15,088 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 101 (test) ]: test loglike is -5.837310835077967, num_events is 13852, acc is 0.22170083742419866, rmse is 3.963050564147357
+2024-12-04 17:39:15,088 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:15,292 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 102 (train) ]: train loglike is -6.725802111193193, num_events is 46363
+2024-12-04 17:39:15,457 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 102 (valid) ]:  valid loglike is -4.7666427504225695, num_events is 6212, acc is 0.22231165486155827, rmse is 3.8388806542887353
+2024-12-04 17:39:15,819 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 102 (test) ]: test loglike is -5.678476314340889, num_events is 13852, acc is 0.2189575512561363, rmse is 3.946122466992559
+2024-12-04 17:39:15,820 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:16,016 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 103 (train) ]: train loglike is -6.86615368717377, num_events is 46363
+2024-12-04 17:39:16,192 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 103 (valid) ]:  valid loglike is -4.778065481879829, num_events is 6212, acc is 0.22778493238892467, rmse is 3.861015230097232
+2024-12-04 17:39:16,550 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 103 (test) ]: test loglike is -5.9719453305479355, num_events is 13852, acc is 0.22184522090672826, rmse is 3.9690113608332473
+2024-12-04 17:39:16,550 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:16,756 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 104 (train) ]: train loglike is -6.779740744067198, num_events is 46363
+2024-12-04 17:39:16,920 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 104 (valid) ]:  valid loglike is -4.728523170878944, num_events is 6212, acc is 0.22569220862846104, rmse is 3.891194240259907
+2024-12-04 17:39:17,280 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 104 (test) ]: test loglike is -5.874513551743431, num_events is 13852, acc is 0.2170083742419867, rmse is 3.971744114158433
+2024-12-04 17:39:17,280 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:17,484 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 105 (train) ]: train loglike is -6.697621491174266, num_events is 46363
+2024-12-04 17:39:17,654 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 105 (valid) ]:  valid loglike is -4.724480937852141, num_events is 6212, acc is 0.22520927237604635, rmse is 3.882418088133279
+2024-12-04 17:39:18,049 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 105 (test) ]: test loglike is -5.887018373926148, num_events is 13852, acc is 0.2177302916546347, rmse is 3.960566723412678
+2024-12-04 17:39:18,050 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:18,260 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 106 (train) ]: train loglike is -6.746423729253392, num_events is 46363
+2024-12-04 17:39:18,434 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 106 (valid) ]:  valid loglike is -4.730576907598197, num_events is 6212, acc is 0.22005795235028977, rmse is 3.9111553613766348
+2024-12-04 17:39:18,809 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 106 (test) ]: test loglike is -5.702767848280032, num_events is 13852, acc is 0.2188853595148715, rmse is 3.971931264486352
+2024-12-04 17:39:18,810 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:19,013 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 107 (train) ]: train loglike is -6.779549635822208, num_events is 46363
+2024-12-04 17:39:19,179 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 107 (valid) ]:  valid loglike is -4.706385762938667, num_events is 6212, acc is 0.22762395363811977, rmse is 3.9071200655024643
+2024-12-04 17:39:19,570 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 107 (test) ]: test loglike is -5.7813928324880886, num_events is 13852, acc is 0.2109442679757436, rmse is 3.942225203518511
+2024-12-04 17:39:19,571 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:19,768 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 108 (train) ]: train loglike is -6.687163954486875, num_events is 46363
+2024-12-04 17:39:19,936 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 108 (valid) ]:  valid loglike is -4.716086619144398, num_events is 6212, acc is 0.22343850611719254, rmse is 3.930181724621853
+2024-12-04 17:39:20,310 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 108 (test) ]: test loglike is -5.663835913812085, num_events is 13852, acc is 0.2170083742419867, rmse is 3.978745558650133
+2024-12-04 17:39:20,312 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:20,523 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 109 (train) ]: train loglike is -6.842990222031847, num_events is 46363
+2024-12-04 17:39:20,700 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 109 (valid) ]:  valid loglike is -4.720925728428847, num_events is 6212, acc is 0.22842884739214422, rmse is 3.8909468909531126
+2024-12-04 17:39:21,056 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 109 (test) ]: test loglike is -5.700738724552411, num_events is 13852, acc is 0.21455385503898355, rmse is 3.9770327301774073
+2024-12-04 17:39:21,057 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:21,263 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 110 (train) ]: train loglike is -6.564172855374975, num_events is 46363
+2024-12-04 17:39:21,438 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 110 (valid) ]:  valid loglike is -4.719532884940437, num_events is 6212, acc is 0.23019961365099806, rmse is 3.8538327308727602
+2024-12-04 17:39:21,801 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 110 (test) ]: test loglike is -6.1930721590293825, num_events is 13852, acc is 0.22018481085763789, rmse is 4.020183589730077
+2024-12-04 17:39:21,802 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:22,017 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 111 (train) ]: train loglike is -6.569362877590967, num_events is 46363
+2024-12-04 17:39:22,201 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 111 (valid) ]:  valid loglike is -4.728106575478912, num_events is 6212, acc is 0.22488731487443658, rmse is 3.9344885609768543
+2024-12-04 17:39:22,594 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 111 (test) ]: test loglike is -5.713208014862475, num_events is 13852, acc is 0.21621426508807393, rmse is 4.0045732313381
+2024-12-04 17:39:22,594 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:22,835 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 112 (train) ]: train loglike is -6.590812519041315, num_events is 46363
+2024-12-04 17:39:23,016 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 112 (valid) ]:  valid loglike is -4.738900798102463, num_events is 6212, acc is 0.22279459111397296, rmse is 3.879393665919151
+2024-12-04 17:39:23,413 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 112 (test) ]: test loglike is -5.84185863277866, num_events is 13852, acc is 0.21007796708056597, rmse is 4.013549519507571
+2024-12-04 17:39:23,413 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:23,626 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 113 (train) ]: train loglike is -6.450209467106044, num_events is 46363
+2024-12-04 17:39:23,803 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 113 (valid) ]:  valid loglike is -4.722965473830892, num_events is 6212, acc is 0.22037990985189954, rmse is 3.9121494284506175
+2024-12-04 17:39:24,175 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 113 (test) ]: test loglike is -5.771750864044903, num_events is 13852, acc is 0.21599768986427953, rmse is 4.025935979198784
+2024-12-04 17:39:24,176 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:24,386 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 114 (train) ]: train loglike is -6.615013040773354, num_events is 46363
+2024-12-04 17:39:24,570 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 114 (valid) ]:  valid loglike is -4.738097004789118, num_events is 6212, acc is 0.2244043786220219, rmse is 3.8954373082292366
+2024-12-04 17:39:24,936 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 114 (test) ]: test loglike is -5.638672579997474, num_events is 13852, acc is 0.21209933583598037, rmse is 4.015832349804483
+2024-12-04 17:39:24,937 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:25,145 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 115 (train) ]: train loglike is -6.486429629533518, num_events is 46363
+2024-12-04 17:39:25,316 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 115 (valid) ]:  valid loglike is -4.74689345596225, num_events is 6212, acc is 0.22327752736638765, rmse is 3.8209113708138047
+2024-12-04 17:39:25,700 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 115 (test) ]: test loglike is -5.383794984478776, num_events is 13852, acc is 0.20993358359803638, rmse is 3.960725583791136
+2024-12-04 17:39:25,701 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:25,913 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 116 (train) ]: train loglike is -6.516288054826855, num_events is 46363
+2024-12-04 17:39:26,080 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 116 (valid) ]:  valid loglike is -4.716462183827672, num_events is 6212, acc is 0.22263361236316806, rmse is 3.9211224878421227
+2024-12-04 17:39:26,459 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 116 (test) ]: test loglike is -5.910231684729642, num_events is 13852, acc is 0.21469823852151315, rmse is 4.0154444081903415
+2024-12-04 17:39:26,459 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:26,660 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 117 (train) ]: train loglike is -6.387975961266258, num_events is 46363
+2024-12-04 17:39:26,839 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 117 (valid) ]:  valid loglike is -4.7416625897959594, num_events is 6212, acc is 0.22327752736638765, rmse is 3.935264778727109
+2024-12-04 17:39:27,219 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 117 (test) ]: test loglike is -5.61893448373881, num_events is 13852, acc is 0.2087063239965348, rmse is 3.969395167702928
+2024-12-04 17:39:27,219 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:27,419 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 118 (train) ]: train loglike is -6.490115261462535, num_events is 46363
+2024-12-04 17:39:27,604 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 118 (valid) ]:  valid loglike is -4.721998029267949, num_events is 6212, acc is 0.2218287186091436, rmse is 3.8895812782632637
+2024-12-04 17:39:28,002 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 118 (test) ]: test loglike is -5.559664218163442, num_events is 13852, acc is 0.21440947155645393, rmse is 3.97000420776634
+2024-12-04 17:39:28,002 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:28,215 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 119 (train) ]: train loglike is -6.537419765289671, num_events is 46363
+2024-12-04 17:39:28,404 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 119 (valid) ]:  valid loglike is -4.6992742436514, num_events is 6212, acc is 0.22134578235672892, rmse is 3.850407939520283
+2024-12-04 17:39:28,802 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 119 (test) ]: test loglike is -5.512939241625758, num_events is 13852, acc is 0.21181056887092117, rmse is 3.9695778145511382
+2024-12-04 17:39:28,802 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:29,017 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 120 (train) ]: train loglike is -6.442687178656741, num_events is 46363
+2024-12-04 17:39:29,199 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 120 (valid) ]:  valid loglike is -4.7428741749839025, num_events is 6212, acc is 0.22021893110109467, rmse is 3.8967109995477744
+2024-12-04 17:39:29,583 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 120 (test) ]: test loglike is -5.590255327524906, num_events is 13852, acc is 0.2084897487727404, rmse is 3.9457341347074437
+2024-12-04 17:39:29,583 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:29,805 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 121 (train) ]: train loglike is -6.321801977398464, num_events is 46363
+2024-12-04 17:39:29,987 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 121 (valid) ]:  valid loglike is -4.700788607231971, num_events is 6212, acc is 0.21860914359304573, rmse is 3.927897712694156
+2024-12-04 17:39:30,391 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 121 (test) ]: test loglike is -5.7044470112619114, num_events is 13852, acc is 0.21007796708056597, rmse is 3.9776921187854843
+2024-12-04 17:39:30,391 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:30,605 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 122 (train) ]: train loglike is -6.497868194162101, num_events is 46363
+2024-12-04 17:39:30,783 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 122 (valid) ]:  valid loglike is -4.717267391993319, num_events is 6212, acc is 0.22875080489375402, rmse is 3.8677892208405265
+2024-12-04 17:39:31,166 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 122 (test) ]: test loglike is -5.583262598586846, num_events is 13852, acc is 0.2172249494657811, rmse is 3.964039221323821
+2024-12-04 17:39:31,166 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:31,368 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 123 (train) ]: train loglike is -6.330327915882546, num_events is 46363
+2024-12-04 17:39:31,540 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 123 (valid) ]:  valid loglike is -4.701238215852382, num_events is 6212, acc is 0.22054088860270443, rmse is 3.9269748545283916
+2024-12-04 17:39:31,906 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 123 (test) ]: test loglike is -5.661488413225527, num_events is 13852, acc is 0.21015015882183077, rmse is 3.939579351873407
+2024-12-04 17:39:31,907 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:32,117 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 124 (train) ]: train loglike is -6.315884214648534, num_events is 46363
+2024-12-04 17:39:32,299 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 124 (valid) ]:  valid loglike is -4.684808164892547, num_events is 6212, acc is 0.22198969735994847, rmse is 3.839409577009425
+2024-12-04 17:39:32,683 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 124 (test) ]: test loglike is -5.769322852746896, num_events is 13852, acc is 0.20459139474444124, rmse is 3.9409934120479146
+2024-12-04 17:39:32,683 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:32,923 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 125 (train) ]: train loglike is -6.45851282862277, num_events is 46363
+2024-12-04 17:39:33,098 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 125 (valid) ]:  valid loglike is -4.691789989385463, num_events is 6212, acc is 0.22134578235672892, rmse is 3.9151446071611136
+2024-12-04 17:39:33,482 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 125 (test) ]: test loglike is -5.465516881587496, num_events is 13852, acc is 0.21296563673115795, rmse is 3.929205674021233
+2024-12-04 17:39:33,482 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:33,681 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 126 (train) ]: train loglike is -6.289606483416194, num_events is 46363
+2024-12-04 17:39:33,852 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 126 (valid) ]:  valid loglike is -4.6947001833648585, num_events is 6212, acc is 0.2218287186091436, rmse is 3.9154440370108508
+2024-12-04 17:39:34,242 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 126 (test) ]: test loglike is -5.352691905952209, num_events is 13852, acc is 0.2082009818076812, rmse is 3.938239175948694
+2024-12-04 17:39:34,243 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:34,482 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 127 (train) ]: train loglike is -6.256548000796702, num_events is 46363
+2024-12-04 17:39:34,672 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 127 (valid) ]:  valid loglike is -4.700302055245895, num_events is 6212, acc is 0.22488731487443658, rmse is 3.8509468147088244
+2024-12-04 17:39:35,063 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 127 (test) ]: test loglike is -5.480021358603451, num_events is 13852, acc is 0.20495235345076523, rmse is 3.8584800853617534
+2024-12-04 17:39:35,063 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:35,260 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 128 (train) ]: train loglike is -6.2859780175598, num_events is 46363
+2024-12-04 17:39:35,423 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 128 (valid) ]:  valid loglike is -4.708639465449935, num_events is 6212, acc is 0.22488731487443658, rmse is 3.89449111185207
+2024-12-04 17:39:35,820 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 128 (test) ]: test loglike is -5.223496042990182, num_events is 13852, acc is 0.209356049667918, rmse is 3.9075170372409525
+2024-12-04 17:39:35,821 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:36,047 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 129 (train) ]: train loglike is -6.190839117905172, num_events is 46363
+2024-12-04 17:39:36,227 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 129 (valid) ]:  valid loglike is -4.6923409957541855, num_events is 6212, acc is 0.21780424983902125, rmse is 3.8864461148932854
+2024-12-04 17:39:36,632 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 129 (test) ]: test loglike is -5.412618101176726, num_events is 13852, acc is 0.20769563961882762, rmse is 3.8492649258535003
+2024-12-04 17:39:36,633 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:36,840 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 130 (train) ]: train loglike is -6.338587275952807, num_events is 46363
+2024-12-04 17:39:37,019 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 130 (valid) ]:  valid loglike is -4.718480392033564, num_events is 6212, acc is 0.21812620734063104, rmse is 3.825529812123663
+2024-12-04 17:39:37,399 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 130 (test) ]: test loglike is -5.385378549803278, num_events is 13852, acc is 0.2065405717585908, rmse is 3.8987286868277597
+2024-12-04 17:39:37,400 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:37,629 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 131 (train) ]: train loglike is -6.186465555271715, num_events is 46363
+2024-12-04 17:39:37,812 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 131 (valid) ]:  valid loglike is -4.720320643261027, num_events is 6212, acc is 0.21764327108821635, rmse is 3.864662637044407
+2024-12-04 17:39:38,221 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 131 (test) ]: test loglike is -5.70734032089229, num_events is 13852, acc is 0.20711810568870923, rmse is 3.895608864751958
+2024-12-04 17:39:38,223 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:38,445 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 132 (train) ]: train loglike is -6.227319097394474, num_events is 46363
+2024-12-04 17:39:38,614 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 132 (valid) ]:  valid loglike is -4.718649073869124, num_events is 6212, acc is 0.21522858982614296, rmse is 3.839975470856508
+2024-12-04 17:39:38,988 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 132 (test) ]: test loglike is -5.485452941136659, num_events is 13852, acc is 0.20762344787756282, rmse is 3.8953506123371375
+2024-12-04 17:39:38,988 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:39,194 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 133 (train) ]: train loglike is -6.120163695491287, num_events is 46363
+2024-12-04 17:39:39,364 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 133 (valid) ]:  valid loglike is -4.6885972965631035, num_events is 6212, acc is 0.21780424983902125, rmse is 3.811451627688164
+2024-12-04 17:39:39,742 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 133 (test) ]: test loglike is -5.745960505477548, num_events is 13852, acc is 0.20321975166041004, rmse is 3.9436955646039737
+2024-12-04 17:39:39,742 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:39,946 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 134 (train) ]: train loglike is -6.363546648863318, num_events is 46363
+2024-12-04 17:39:40,124 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 134 (valid) ]:  valid loglike is -4.725352958487605, num_events is 6212, acc is 0.21796522858982614, rmse is 3.87429883676456
+2024-12-04 17:39:40,518 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 134 (test) ]: test loglike is -5.410969112086702, num_events is 13852, acc is 0.20596303782847242, rmse is 3.9243773365723102
+2024-12-04 17:39:40,518 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:40,727 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 135 (train) ]: train loglike is -6.085112741437137, num_events is 46363
+2024-12-04 17:39:40,901 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 135 (valid) ]:  valid loglike is -4.76181778966114, num_events is 6212, acc is 0.2169993560849968, rmse is 3.9462218372316133
+2024-12-04 17:39:41,287 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 135 (test) ]: test loglike is -5.477116628014005, num_events is 13852, acc is 0.20596303782847242, rmse is 3.883270999294028
+2024-12-04 17:39:41,288 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:41,499 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 136 (train) ]: train loglike is -6.286417947770852, num_events is 46363
+2024-12-04 17:39:41,674 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 136 (valid) ]:  valid loglike is -4.682951721466517, num_events is 6212, acc is 0.22005795235028977, rmse is 3.8879417288436326
+2024-12-04 17:39:42,069 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 136 (test) ]: test loglike is -5.46493032368972, num_events is 13852, acc is 0.20466358648570604, rmse is 3.889260676178575
+2024-12-04 17:39:42,070 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:42,287 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 137 (train) ]: train loglike is -5.988999849017535, num_events is 46363
+2024-12-04 17:39:42,468 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 137 (valid) ]:  valid loglike is -4.680984605149308, num_events is 6212, acc is 0.22665808113329042, rmse is 3.855064973660665
+2024-12-04 17:39:42,882 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 137 (test) ]: test loglike is -5.475057894392506, num_events is 13852, acc is 0.2089228992203292, rmse is 3.9048957973447713
+2024-12-04 17:39:42,883 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:43,107 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 138 (train) ]: train loglike is -6.101113744223572, num_events is 46363
+2024-12-04 17:39:43,288 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 138 (valid) ]:  valid loglike is -4.6995836246881035, num_events is 6212, acc is 0.22633612363168062, rmse is 3.9505530266149123
+2024-12-04 17:39:43,697 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 138 (test) ]: test loglike is -5.586352320513283, num_events is 13852, acc is 0.2078400231013572, rmse is 3.9084677508375614
+2024-12-04 17:39:43,697 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:43,915 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 139 (train) ]: train loglike is -6.127944389754492, num_events is 46363
+2024-12-04 17:39:44,088 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 139 (valid) ]:  valid loglike is -4.707627688848197, num_events is 6212, acc is 0.22070186735350933, rmse is 3.879690072982719
+2024-12-04 17:39:44,484 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 139 (test) ]: test loglike is -5.339772968253682, num_events is 13852, acc is 0.2066849552411204, rmse is 3.851360455507567
+2024-12-04 17:39:44,484 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:44,708 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 140 (train) ]: train loglike is -6.046645008715193, num_events is 46363
+2024-12-04 17:39:44,886 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 140 (valid) ]:  valid loglike is -4.7129461186514, num_events is 6212, acc is 0.22021893110109467, rmse is 3.871766249199251
+2024-12-04 17:39:45,275 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 140 (test) ]: test loglike is -5.205461220626986, num_events is 13852, acc is 0.2066127634998556, rmse is 3.8994132467741305
+2024-12-04 17:39:45,276 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:45,509 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 141 (train) ]: train loglike is -6.07791887354949, num_events is 46363
+2024-12-04 17:39:45,696 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 141 (valid) ]:  valid loglike is -4.693250588578557, num_events is 6212, acc is 0.2235994848679974, rmse is 3.8720521396466947
+2024-12-04 17:39:46,080 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 141 (test) ]: test loglike is -5.193630094029743, num_events is 13852, acc is 0.20090961593993648, rmse is 3.860733440246858
+2024-12-04 17:39:46,080 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:46,292 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 142 (train) ]: train loglike is -6.134752060169208, num_events is 46363
+2024-12-04 17:39:46,456 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 142 (valid) ]:  valid loglike is -4.7275731761610595, num_events is 6212, acc is 0.2235994848679974, rmse is 3.9113234632256595
+2024-12-04 17:39:46,824 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 142 (test) ]: test loglike is -5.385342171933655, num_events is 13852, acc is 0.20076523245740688, rmse is 3.870509606350712
+2024-12-04 17:39:46,825 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:47,028 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 143 (train) ]: train loglike is -6.013872904107262, num_events is 46363
+2024-12-04 17:39:47,204 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 143 (valid) ]:  valid loglike is -4.679109925849163, num_events is 6212, acc is 0.22295556986477785, rmse is 3.9577288258058836
+2024-12-04 17:39:47,609 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 143 (test) ]: test loglike is -5.247100345392362, num_events is 13852, acc is 0.20509673693329483, rmse is 3.8998446107702365
+2024-12-04 17:39:47,609 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:47,803 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 144 (train) ]: train loglike is -5.975839309160861, num_events is 46363
+2024-12-04 17:39:47,973 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 144 (valid) ]:  valid loglike is -4.685704552428767, num_events is 6212, acc is 0.2190920798454604, rmse is 3.9142679515163312
+2024-12-04 17:39:48,367 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 144 (test) ]: test loglike is -5.219394367690586, num_events is 13852, acc is 0.2066849552411204, rmse is 3.892597247743402
+2024-12-04 17:39:48,367 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:48,597 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 145 (train) ]: train loglike is -6.025674517530143, num_events is 46363
+2024-12-04 17:39:48,775 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 145 (valid) ]:  valid loglike is -4.685572656753059, num_events is 6212, acc is 0.22311654861558275, rmse is 3.8714056342025325
+2024-12-04 17:39:49,202 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 145 (test) ]: test loglike is -5.468579813609948, num_events is 13852, acc is 0.20343632688420446, rmse is 3.8726091890797423
+2024-12-04 17:39:49,203 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:49,422 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 146 (train) ]: train loglike is -6.008928544347055, num_events is 46363
+2024-12-04 17:39:49,603 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 146 (valid) ]:  valid loglike is -4.705476327320106, num_events is 6212, acc is 0.21844816484224083, rmse is 3.922054875079069
+2024-12-04 17:39:49,988 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 146 (test) ]: test loglike is -5.430094706540571, num_events is 13852, acc is 0.19874386370199248, rmse is 3.8865293553855254
+2024-12-04 17:39:49,989 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:50,188 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 147 (train) ]: train loglike is -6.069362035054893, num_events is 46363
+2024-12-04 17:39:50,373 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 147 (valid) ]:  valid loglike is -4.689758261479797, num_events is 6212, acc is 0.2139407598197038, rmse is 3.904660800816937
+2024-12-04 17:39:50,793 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 147 (test) ]: test loglike is -5.4108852173873805, num_events is 13852, acc is 0.1978053710655501, rmse is 3.8927929541601536
+2024-12-04 17:39:50,794 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:51,018 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 148 (train) ]: train loglike is -6.0840432472081725, num_events is 46363
+2024-12-04 17:39:51,200 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 148 (valid) ]:  valid loglike is -4.767955261741387, num_events is 6212, acc is 0.2160334835801674, rmse is 3.8791726654172978
+2024-12-04 17:39:51,579 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 148 (test) ]: test loglike is -5.281512259060063, num_events is 13852, acc is 0.2078400231013572, rmse is 3.889700001246327
+2024-12-04 17:39:51,579 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:51,792 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 149 (train) ]: train loglike is -5.95978156156984, num_events is 46363
+2024-12-04 17:39:51,964 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 149 (valid) ]:  valid loglike is -4.6968128722633615, num_events is 6212, acc is 0.22134578235672892, rmse is 3.9189905666818645
+2024-12-04 17:39:52,342 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 149 (test) ]: test loglike is -5.16736301617095, num_events is 13852, acc is 0.1983829049956685, rmse is 3.875239042640151
+2024-12-04 17:39:52,342 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:52,558 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 150 (train) ]: train loglike is -5.898940304465576, num_events is 46363
+2024-12-04 17:39:52,727 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 150 (valid) ]:  valid loglike is -4.693781944220863, num_events is 6212, acc is 0.2189311010946555, rmse is 3.88250633612819
+2024-12-04 17:39:53,098 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 150 (test) ]: test loglike is -5.2398727112962025, num_events is 13852, acc is 0.1998989315622293, rmse is 3.9004606030323585
+2024-12-04 17:39:53,099 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:53,350 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 151 (train) ]: train loglike is -5.916004187572796, num_events is 46363
+2024-12-04 17:39:53,529 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 151 (valid) ]:  valid loglike is -4.719139398794671, num_events is 6212, acc is 0.2247263361236317, rmse is 3.884699826991402
+2024-12-04 17:39:53,920 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 151 (test) ]: test loglike is -5.310221730165319, num_events is 13852, acc is 0.20444701126191164, rmse is 3.8381963266265258
+2024-12-04 17:39:53,920 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:54,141 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 152 (train) ]: train loglike is -5.973021341944277, num_events is 46363
+2024-12-04 17:39:54,314 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 152 (valid) ]:  valid loglike is -4.7245747897215065, num_events is 6212, acc is 0.21233097231165488, rmse is 3.9148310995906392
+2024-12-04 17:39:54,712 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 152 (test) ]: test loglike is -5.2562763105057035, num_events is 13852, acc is 0.20444701126191164, rmse is 3.8953568484504184
+2024-12-04 17:39:54,714 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:54,935 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 153 (train) ]: train loglike is -5.829185415902767, num_events is 46363
+2024-12-04 17:39:55,114 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 153 (valid) ]:  valid loglike is -4.71671308430256, num_events is 6212, acc is 0.21329684481648423, rmse is 3.8809440624665186
+2024-12-04 17:39:55,499 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 153 (test) ]: test loglike is -5.2759787338922175, num_events is 13852, acc is 0.1984550967369333, rmse is 3.855865531979338
+2024-12-04 17:39:55,499 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:55,723 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 154 (train) ]: train loglike is -5.929472274159891, num_events is 46363
+2024-12-04 17:39:55,899 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 154 (valid) ]:  valid loglike is -4.717610886691082, num_events is 6212, acc is 0.21522858982614296, rmse is 3.862290795353591
+2024-12-04 17:39:56,281 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 154 (test) ]: test loglike is -5.258265813375325, num_events is 13852, acc is 0.19672249494657812, rmse is 3.905212372987495
+2024-12-04 17:39:56,281 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:56,485 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 155 (train) ]: train loglike is -5.945290404491459, num_events is 46363
+2024-12-04 17:39:56,654 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 155 (valid) ]:  valid loglike is -4.692976421643593, num_events is 6212, acc is 0.21764327108821635, rmse is 3.945548071277487
+2024-12-04 17:39:57,034 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 155 (test) ]: test loglike is -5.412612602196433, num_events is 13852, acc is 0.1973722206179613, rmse is 3.882132254019662
+2024-12-04 17:39:57,034 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:57,238 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 156 (train) ]: train loglike is -5.864878866903565, num_events is 46363
+2024-12-04 17:39:57,417 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 156 (valid) ]:  valid loglike is -4.737717195548938, num_events is 6212, acc is 0.21828718609143594, rmse is 3.8842626389803527
+2024-12-04 17:39:57,788 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 156 (test) ]: test loglike is -5.209560639934667, num_events is 13852, acc is 0.20242564250649725, rmse is 3.8853134704463694
+2024-12-04 17:39:57,789 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:58,005 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 157 (train) ]: train loglike is -5.814493735238768, num_events is 46363
+2024-12-04 17:39:58,190 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 157 (valid) ]:  valid loglike is -4.706287980924018, num_events is 6212, acc is 0.2139407598197038, rmse is 3.9133769355707537
+2024-12-04 17:39:58,592 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 157 (test) ]: test loglike is -5.352191216746679, num_events is 13852, acc is 0.20242564250649725, rmse is 3.899026003452498
+2024-12-04 17:39:58,592 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:58,789 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 158 (train) ]: train loglike is -5.957356532114779, num_events is 46363
+2024-12-04 17:39:58,971 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 158 (valid) ]:  valid loglike is -4.793941225148905, num_events is 6212, acc is 0.21764327108821635, rmse is 3.9165947288836773
+2024-12-04 17:39:59,344 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 158 (test) ]: test loglike is -5.264665357439359, num_events is 13852, acc is 0.20047646549234768, rmse is 3.8757848398251187
+2024-12-04 17:39:59,344 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:39:59,570 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 159 (train) ]: train loglike is -5.943991319182322, num_events is 46363
+2024-12-04 17:39:59,757 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 159 (valid) ]:  valid loglike is -4.678416648221185, num_events is 6212, acc is 0.21442369607211847, rmse is 3.8963120126832704
+2024-12-04 17:40:00,157 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 159 (test) ]: test loglike is -5.223033705647199, num_events is 13852, acc is 0.2001155067860237, rmse is 3.8745092798368503
+2024-12-04 17:40:00,157 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:00,384 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 160 (train) ]: train loglike is -5.815937715689235, num_events is 46363
+2024-12-04 17:40:00,579 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 160 (valid) ]:  valid loglike is -4.702810431171523, num_events is 6212, acc is 0.21233097231165488, rmse is 3.900076621727449
+2024-12-04 17:40:00,962 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 160 (test) ]: test loglike is -5.301174215591612, num_events is 13852, acc is 0.20047646549234768, rmse is 3.842700821889709
+2024-12-04 17:40:00,962 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:01,174 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 161 (train) ]: train loglike is -5.899277213578176, num_events is 46363
+2024-12-04 17:40:01,340 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 161 (valid) ]:  valid loglike is -4.723492899327914, num_events is 6212, acc is 0.21442369607211847, rmse is 3.890230713641682
+2024-12-04 17:40:01,730 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 161 (test) ]: test loglike is -5.206746431020791, num_events is 13852, acc is 0.19917701414958128, rmse is 3.870194398983679
+2024-12-04 17:40:01,730 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:01,936 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 162 (train) ]: train loglike is -5.8373838395514746, num_events is 46363
+2024-12-04 17:40:02,111 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 162 (valid) ]:  valid loglike is -4.701739859596346, num_events is 6212, acc is 0.21410173857050868, rmse is 3.899769514804678
+2024-12-04 17:40:02,518 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 162 (test) ]: test loglike is -5.178875060911782, num_events is 13852, acc is 0.19628934449898933, rmse is 3.8445322484933775
+2024-12-04 17:40:02,519 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:02,727 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 163 (train) ]: train loglike is -5.831717426375827, num_events is 46363
+2024-12-04 17:40:02,911 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 163 (valid) ]:  valid loglike is -4.69951366810206, num_events is 6212, acc is 0.2168383773341919, rmse is 3.866601628301787
+2024-12-04 17:40:03,299 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 163 (test) ]: test loglike is -5.109952815929108, num_events is 13852, acc is 0.19693907017037252, rmse is 3.8633084291470006
+2024-12-04 17:40:03,299 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:03,532 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 164 (train) ]: train loglike is -5.850731022211947, num_events is 46363
+2024-12-04 17:40:03,703 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 164 (valid) ]:  valid loglike is -4.695103101859305, num_events is 6212, acc is 0.22198969735994847, rmse is 3.879126533713185
+2024-12-04 17:40:04,079 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 164 (test) ]: test loglike is -5.242710044127202, num_events is 13852, acc is 0.20278660121282124, rmse is 3.8395822766492484
+2024-12-04 17:40:04,080 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:04,304 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 165 (train) ]: train loglike is -5.77422546079983, num_events is 46363
+2024-12-04 17:40:04,480 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 165 (valid) ]:  valid loglike is -4.705868555819382, num_events is 6212, acc is 0.21796522858982614, rmse is 3.905842000739145
+2024-12-04 17:40:04,875 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 165 (test) ]: test loglike is -5.173546972007652, num_events is 13852, acc is 0.19672249494657812, rmse is 3.8240815015425924
+2024-12-04 17:40:04,876 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:05,086 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 166 (train) ]: train loglike is -5.714058464252205, num_events is 46363
+2024-12-04 17:40:05,263 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 166 (valid) ]:  valid loglike is -4.720489010684965, num_events is 6212, acc is 0.21490663232453316, rmse is 3.838587655730483
+2024-12-04 17:40:05,650 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 166 (test) ]: test loglike is -5.136384722197156, num_events is 13852, acc is 0.1978775628068149, rmse is 3.828363049043785
+2024-12-04 17:40:05,650 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:05,862 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 167 (train) ]: train loglike is -5.830047835828139, num_events is 46363
+2024-12-04 17:40:06,035 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 167 (valid) ]:  valid loglike is -4.675511327621941, num_events is 6212, acc is 0.2165164198325821, rmse is 3.8574980710099886
+2024-12-04 17:40:06,423 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 167 (test) ]: test loglike is -5.148816788640629, num_events is 13852, acc is 0.1979497545480797, rmse is 3.8442665651836303
+2024-12-04 17:40:06,423 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:06,660 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 168 (train) ]: train loglike is -5.740022498240784, num_events is 46363
+2024-12-04 17:40:06,842 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 168 (valid) ]:  valid loglike is -4.673291109948487, num_events is 6212, acc is 0.21361880231809402, rmse is 3.853758473113297
+2024-12-04 17:40:07,252 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 168 (test) ]: test loglike is -5.044289562766207, num_events is 13852, acc is 0.20271440947155644, rmse is 3.829677306411556
+2024-12-04 17:40:07,253 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:07,488 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 169 (train) ]: train loglike is -5.802652627937418, num_events is 46363
+2024-12-04 17:40:07,682 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 169 (valid) ]:  valid loglike is -4.674379288574533, num_events is 6212, acc is 0.21265292981326464, rmse is 3.854011117067275
+2024-12-04 17:40:08,108 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 169 (test) ]: test loglike is -4.975019542529959, num_events is 13852, acc is 0.19867167196072769, rmse is 3.781181219958494
+2024-12-04 17:40:08,108 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:08,385 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 170 (train) ]: train loglike is -5.871770601355068, num_events is 46363
+2024-12-04 17:40:08,578 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 170 (valid) ]:  valid loglike is -4.684384652436816, num_events is 6212, acc is 0.21458467482292337, rmse is 3.8136805543650114
+2024-12-04 17:40:09,022 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 170 (test) ]: test loglike is -5.223157644203003, num_events is 13852, acc is 0.20235345076523245, rmse is 3.7920539140909657
+2024-12-04 17:40:09,023 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:09,284 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 171 (train) ]: train loglike is -5.680953684275446, num_events is 46363
+2024-12-04 17:40:09,474 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 171 (valid) ]:  valid loglike is -4.672622042015454, num_events is 6212, acc is 0.2042820347714102, rmse is 3.8810488401535204
+2024-12-04 17:40:09,883 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 171 (test) ]: test loglike is -5.1166043965898425, num_events is 13852, acc is 0.20264221773029165, rmse is 3.7524937773824933
+2024-12-04 17:40:09,884 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:10,120 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 172 (train) ]: train loglike is -5.762259026257468, num_events is 46363
+2024-12-04 17:40:10,316 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 172 (valid) ]:  valid loglike is -4.6725733082139405, num_events is 6212, acc is 0.22279459111397296, rmse is 3.8347382854819068
+2024-12-04 17:40:10,749 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 172 (test) ]: test loglike is -5.021883403569881, num_events is 13852, acc is 0.1985272884781981, rmse is 3.7586412838949896
+2024-12-04 17:40:10,750 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:10,985 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 173 (train) ]: train loglike is -5.7192759531442094, num_events is 46363
+2024-12-04 17:40:11,168 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 173 (valid) ]:  valid loglike is -4.652644641922891, num_events is 6212, acc is 0.21056020605280104, rmse is 3.7343134531989044
+2024-12-04 17:40:11,578 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 173 (test) ]: test loglike is -5.057761711982025, num_events is 13852, acc is 0.1981663297718741, rmse is 3.742718453130792
+2024-12-04 17:40:11,579 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:11,830 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 174 (train) ]: train loglike is -5.671067492363253, num_events is 46363
+2024-12-04 17:40:12,014 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 174 (valid) ]:  valid loglike is -4.663463231447199, num_events is 6212, acc is 0.21249195106245974, rmse is 3.743752590893154
+2024-12-04 17:40:12,419 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 174 (test) ]: test loglike is -5.1520187461648135, num_events is 13852, acc is 0.2002598902685533, rmse is 3.694225625781602
+2024-12-04 17:40:12,419 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:12,640 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 175 (train) ]: train loglike is -5.71158842230739, num_events is 46363
+2024-12-04 17:40:12,814 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 175 (valid) ]:  valid loglike is -4.645275776722473, num_events is 6212, acc is 0.21764327108821635, rmse is 3.732244185073202
+2024-12-04 17:40:13,247 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 175 (test) ]: test loglike is -5.056530997892904, num_events is 13852, acc is 0.1999711233034941, rmse is 3.7115947692230304
+2024-12-04 17:40:13,247 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:13,522 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 176 (train) ]: train loglike is -5.600200287675517, num_events is 46363
+2024-12-04 17:40:13,722 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 176 (valid) ]:  valid loglike is -4.631019567721748, num_events is 6212, acc is 0.2161944623309723, rmse is 3.7512692603544244
+2024-12-04 17:40:14,134 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 176 (test) ]: test loglike is -5.18524837906981, num_events is 13852, acc is 0.19628934449898933, rmse is 3.6552966610651416
+2024-12-04 17:40:14,135 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:14,403 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 177 (train) ]: train loglike is -5.6677694059648855, num_events is 46363
+2024-12-04 17:40:14,589 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 177 (valid) ]:  valid loglike is -4.650219742283081, num_events is 6212, acc is 0.21200901481004508, rmse is 3.7149936401056185
+2024-12-04 17:40:15,007 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 177 (test) ]: test loglike is -5.0145294339265085, num_events is 13852, acc is 0.2002598902685533, rmse is 3.683885460636507
+2024-12-04 17:40:15,008 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:15,270 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 178 (train) ]: train loglike is -5.54519595198488, num_events is 46363
+2024-12-04 17:40:15,466 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 178 (valid) ]:  valid loglike is -4.622669581052801, num_events is 6212, acc is 0.22279459111397296, rmse is 3.7500914389333015
+2024-12-04 17:40:15,909 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 178 (test) ]: test loglike is -5.008851454776386, num_events is 13852, acc is 0.1973722206179613, rmse is 3.656662381828948
+2024-12-04 17:40:15,909 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:16,130 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 179 (train) ]: train loglike is -5.662436763454964, num_events is 46363
+2024-12-04 17:40:16,314 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 179 (valid) ]:  valid loglike is -4.672037865220541, num_events is 6212, acc is 0.22005795235028977, rmse is 3.781561962010929
+2024-12-04 17:40:16,720 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 179 (test) ]: test loglike is -5.0581622210466, num_events is 13852, acc is 0.19932139763211087, rmse is 3.71076709686745
+2024-12-04 17:40:16,721 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:16,942 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 180 (train) ]: train loglike is -5.580038673248334, num_events is 46363
+2024-12-04 17:40:17,126 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 180 (valid) ]:  valid loglike is -4.645022989777849, num_events is 6212, acc is 0.21538956857694785, rmse is 3.8192822001400217
+2024-12-04 17:40:17,527 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 180 (test) ]: test loglike is -5.045320269072156, num_events is 13852, acc is 0.19628934449898933, rmse is 3.702020831475688
+2024-12-04 17:40:17,527 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:17,743 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 181 (train) ]: train loglike is -5.64666147608276, num_events is 46363
+2024-12-04 17:40:17,924 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 181 (valid) ]:  valid loglike is -4.642112009769398, num_events is 6212, acc is 0.21538956857694785, rmse is 3.7142169241262937
+2024-12-04 17:40:18,324 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 181 (test) ]: test loglike is -5.005378143724733, num_events is 13852, acc is 0.20105399942246607, rmse is 3.6875099689692057
+2024-12-04 17:40:18,325 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:18,580 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 182 (train) ]: train loglike is -5.581943963262731, num_events is 46363
+2024-12-04 17:40:18,759 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 182 (valid) ]:  valid loglike is -4.636063830589987, num_events is 6212, acc is 0.21571152607855762, rmse is 3.7864710783264837
+2024-12-04 17:40:19,163 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 182 (test) ]: test loglike is -5.026653486973903, num_events is 13852, acc is 0.1972278371354317, rmse is 3.661976226120635
+2024-12-04 17:40:19,163 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:19,396 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 183 (train) ]: train loglike is -5.54148329571129, num_events is 46363
+2024-12-04 17:40:19,577 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 183 (valid) ]:  valid loglike is -4.638546110350934, num_events is 6212, acc is 0.2216677398583387, rmse is 3.8017152518786177
+2024-12-04 17:40:19,979 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 183 (test) ]: test loglike is -5.055931891040102, num_events is 13852, acc is 0.1980219462893445, rmse is 3.7304479685724137
+2024-12-04 17:40:19,980 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:20,198 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 184 (train) ]: train loglike is -5.589617170986293, num_events is 46363
+2024-12-04 17:40:20,378 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 184 (valid) ]:  valid loglike is -4.62171769986518, num_events is 6212, acc is 0.21458467482292337, rmse is 3.7212641745718726
+2024-12-04 17:40:20,778 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 184 (test) ]: test loglike is -5.1753008647217005, num_events is 13852, acc is 0.19636153624025413, rmse is 3.711106692788625
+2024-12-04 17:40:20,778 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:20,999 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 185 (train) ]: train loglike is -5.555214674821517, num_events is 46363
+2024-12-04 17:40:21,183 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 185 (valid) ]:  valid loglike is -4.612349176744607, num_events is 6212, acc is 0.2244043786220219, rmse is 3.7875197444351896
+2024-12-04 17:40:21,587 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 185 (test) ]: test loglike is -5.018292428439937, num_events is 13852, acc is 0.19477331793242852, rmse is 3.5913813496638487
+2024-12-04 17:40:21,587 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:21,815 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 186 (train) ]: train loglike is -5.549953100229439, num_events is 46363
+2024-12-04 17:40:21,986 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 186 (valid) ]:  valid loglike is -4.600938235723197, num_events is 6212, acc is 0.21796522858982614, rmse is 3.7085881077333243
+2024-12-04 17:40:22,383 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 186 (test) ]: test loglike is -5.021066170498845, num_events is 13852, acc is 0.20451920300317644, rmse is 3.7348800356049128
+2024-12-04 17:40:22,384 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:22,605 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 187 (train) ]: train loglike is -5.579438408422395, num_events is 46363
+2024-12-04 17:40:22,787 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 187 (valid) ]:  valid loglike is -4.612726156280184, num_events is 6212, acc is 0.22037990985189954, rmse is 3.760053884424968
+2024-12-04 17:40:23,192 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 187 (test) ]: test loglike is -5.017971090591612, num_events is 13852, acc is 0.20148714987005487, rmse is 3.67417309332326
+2024-12-04 17:40:23,192 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:23,425 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 188 (train) ]: train loglike is -5.569816119871988, num_events is 46363
+2024-12-04 17:40:23,605 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 188 (valid) ]:  valid loglike is -4.6086757485511916, num_events is 6212, acc is 0.22037990985189954, rmse is 3.7721483353687866
+2024-12-04 17:40:23,998 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 188 (test) ]: test loglike is -5.0566362540156655, num_events is 13852, acc is 0.1985994802194629, rmse is 3.6868016538701482
+2024-12-04 17:40:23,998 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:24,220 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 189 (train) ]: train loglike is -5.637454789514268, num_events is 46363
+2024-12-04 17:40:24,401 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 189 (valid) ]:  valid loglike is -4.622126749386268, num_events is 6212, acc is 0.2216677398583387, rmse is 3.8134079725312717
+2024-12-04 17:40:24,801 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 189 (test) ]: test loglike is -4.938761240479714, num_events is 13852, acc is 0.19946578111464047, rmse is 3.647531284088939
+2024-12-04 17:40:24,802 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:25,023 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 190 (train) ]: train loglike is -5.56371148262084, num_events is 46363
+2024-12-04 17:40:25,197 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 190 (valid) ]:  valid loglike is -4.6104721393572925, num_events is 6212, acc is 0.22134578235672892, rmse is 3.809905201406811
+2024-12-04 17:40:25,588 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 190 (test) ]: test loglike is -5.016761103428205, num_events is 13852, acc is 0.20257002598902685, rmse is 3.694285796396508
+2024-12-04 17:40:25,588 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:25,811 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 191 (train) ]: train loglike is -5.518344369432522, num_events is 46363
+2024-12-04 17:40:25,993 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 191 (valid) ]:  valid loglike is -4.607971309310608, num_events is 6212, acc is 0.22247263361236316, rmse is 3.7626653675996447
+2024-12-04 17:40:26,381 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 191 (test) ]: test loglike is -4.9405006807455605, num_events is 13852, acc is 0.19665030320531332, rmse is 3.7021221350588593
+2024-12-04 17:40:26,382 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:26,597 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 192 (train) ]: train loglike is -5.574334114251935, num_events is 46363
+2024-12-04 17:40:26,784 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 192 (valid) ]:  valid loglike is -4.599053652456938, num_events is 6212, acc is 0.21973599484867998, rmse is 3.74386590545026
+2024-12-04 17:40:27,197 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 192 (test) ]: test loglike is -5.04060785446145, num_events is 13852, acc is 0.19527866012128212, rmse is 3.648669661983706
+2024-12-04 17:40:27,198 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:27,417 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 193 (train) ]: train loglike is -5.525563702973007, num_events is 46363
+2024-12-04 17:40:27,596 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 193 (valid) ]:  valid loglike is -4.602108318576948, num_events is 6212, acc is 0.21538956857694785, rmse is 3.7114664898139322
+2024-12-04 17:40:27,998 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 193 (test) ]: test loglike is -5.03514412404346, num_events is 13852, acc is 0.1985994802194629, rmse is 3.657107412983741
+2024-12-04 17:40:27,999 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:28,215 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 194 (train) ]: train loglike is -5.4656126905479585, num_events is 46363
+2024-12-04 17:40:28,400 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 194 (valid) ]:  valid loglike is -4.602649420979556, num_events is 6212, acc is 0.22247263361236316, rmse is 3.701124554521802
+2024-12-04 17:40:28,787 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 194 (test) ]: test loglike is -4.942422503857746, num_events is 13852, acc is 0.19881605544325728, rmse is 3.667081202525712
+2024-12-04 17:40:28,787 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:29,007 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 195 (train) ]: train loglike is -5.532163540801663, num_events is 46363
+2024-12-04 17:40:29,188 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 195 (valid) ]:  valid loglike is -4.602319131569946, num_events is 6212, acc is 0.21458467482292337, rmse is 3.7033551712999366
+2024-12-04 17:40:29,581 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 195 (test) ]: test loglike is -4.931827026331938, num_events is 13852, acc is 0.20112619116373087, rmse is 3.6206552878165517
+2024-12-04 17:40:29,582 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:29,803 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 196 (train) ]: train loglike is -5.5185592371948, num_events is 46363
+2024-12-04 17:40:29,989 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 196 (valid) ]:  valid loglike is -4.597431602895606, num_events is 6212, acc is 0.22279459111397296, rmse is 3.758038375618545
+2024-12-04 17:40:30,387 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 196 (test) ]: test loglike is -4.999480205362944, num_events is 13852, acc is 0.2002598902685533, rmse is 3.6702859937406465
+2024-12-04 17:40:30,387 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:30,610 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 197 (train) ]: train loglike is -5.484731940407761, num_events is 46363
+2024-12-04 17:40:30,797 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 197 (valid) ]:  valid loglike is -4.5989962723358015, num_events is 6212, acc is 0.2244043786220219, rmse is 3.7513079596827796
+2024-12-04 17:40:31,205 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 197 (test) ]: test loglike is -4.86840714562879, num_events is 13852, acc is 0.20415824429685245, rmse is 3.6871230831095283
+2024-12-04 17:40:31,205 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:31,441 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 198 (train) ]: train loglike is -5.4838675826494185, num_events is 46363
+2024-12-04 17:40:31,639 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 198 (valid) ]:  valid loglike is -4.5885008979595945, num_events is 6212, acc is 0.22054088860270443, rmse is 3.729742080131431
+2024-12-04 17:40:32,081 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 198 (test) ]: test loglike is -4.852385373050823, num_events is 13852, acc is 0.20148714987005487, rmse is 3.68015653419756
+2024-12-04 17:40:32,082 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:32,328 - tpp_runner.py[pid:36300;line:96:_train_model] - INFO: [ Epoch 199 (train) ]: train loglike is -5.495209634770722, num_events is 46363
+2024-12-04 17:40:32,514 - tpp_runner.py[pid:36300;line:107:_train_model] - INFO: [ Epoch 199 (valid) ]:  valid loglike is -4.582439513492032, num_events is 6212, acc is 0.21410173857050868, rmse is 3.772602938756547
+2024-12-04 17:40:32,934 - tpp_runner.py[pid:36300;line:122:_train_model] - INFO: [ Epoch 199 (test) ]: test loglike is -4.957397355187879, num_events is 13852, acc is 0.2000433150447589, rmse is 3.6600045941028685
+2024-12-04 17:40:32,934 - tpp_runner.py[pid:36300;line:124:_train_model] - CRITICAL: current best loglike on valid set is -4.5509 (updated at epoch-50)
+2024-12-04 17:40:32,935 - base_runner.py[pid:36300;line:110:train] - INFO: End RMTPP3 train! Cost time: 2.561m

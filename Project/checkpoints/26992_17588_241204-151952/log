@@ -1,0 +1,7 @@
+2024-12-04 15:19:52,594 - base_runner.py[pid:26992;line:176:save_log] - INFO: Save the log to ./checkpoints/26992_17588_241204-151952\log
+2024-12-04 15:19:53,488 - tpp_runner.py[pid:26992;line:60:_init_model] - INFO: Num of model parameters 2520
+2024-12-04 15:19:53,491 - tpp_runner.py[pid:26992;line:81:_load_model] - CRITICAL: Load model from ./checkpoints/24384_21288_241204-140824/models/saved_model
+2024-12-04 15:19:53,552 - base_runner.py[pid:26992;line:135:gen] - INFO: Data 'retweet' loaded...
+2024-12-04 15:19:53,552 - base_runner.py[pid:26992;line:140:gen] - INFO: Start RMTPP2 evaluation...
+2024-12-04 15:19:56,283 - tpp_runner.py[pid:26992;line:162:_gen_model] - CRITICAL: Save the prediction to pickle file pred.pkl
+2024-12-04 15:19:56,284 - base_runner.py[pid:26992;line:146:gen] - INFO: End RMTPP2 generation! Cost time: 0.046m
